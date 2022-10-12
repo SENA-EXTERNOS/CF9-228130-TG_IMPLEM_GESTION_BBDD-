@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Titulo de primer nivel
-
+    
 </template>
 
 <script>
