@@ -156,9 +156,9 @@
                   br
                   span Modelo Azure
                 img(src='@/assets/curso/temas/tema3/9.svg', alt='')
-    .titulo-square.d-flex.align-items-center(data-aos="fade-right")
+    .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
       i.fas.fa-square.fa-xs(style=" color:#ffb30b").me-3
-      h5.mb-0 ¿Cómo funciona Microsoft Azure?
+      h3.mb-0 ¿Cómo funciona Microsoft Azure?
     p.mb-5(data-aos='fade-right') Este servicio funciona con una gran variedad de sistemas operativos, lenguajes de programación y herramientas para el desarrollo, además cuenta con todas las tecnologías que son necesarias para el desarrollo de aplicaciones.
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/10.svg', alt='')
@@ -344,10 +344,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.cajon-b-amarillo
-  .cajon-b
-    &::before
-      background-color: #fff4da !important
-      opacity: 0.8 !important
-</style>
+<style lang="sass"></style>

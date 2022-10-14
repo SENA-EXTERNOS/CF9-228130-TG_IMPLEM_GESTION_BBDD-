@@ -124,7 +124,4 @@ export default {
     color: $color-sistema-texto !important
 .img-infografica-b__modal__btn-cerrar i
   color: #084a93
-.text-black
-  h1,h2,h3,h4,h5,h6,p
-    color: $color-sistema-texto !important
 </style>
