@@ -191,9 +191,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.cajon-b
-  &::before
-    background-color: #d9faff !important
-    opacity: 0.8 !important
-</style>
+<style lang="sass"></style>
