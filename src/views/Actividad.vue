@@ -10,12 +10,12 @@
             img(src="@/assets/template/ad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Selección múltiple
-        p.mb-4 El objetivo principal de la presente actividad es verificar. los saberes más importantes del material correspondiente a la temática tratada; por ello, responda cada una de las preguntas de acuerdo a sus conocimientos adquiridos:
+          h2 Servicios de red, virtualización y pruebas de red
+        p.mb-4 La finalidad de la presente actividad es verificar la apropiación de los temas abordados en el componente formativo, por ende, es importante que se resuelvan todas las preguntas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Selección múltiple
+              p.fw-bold.mb-0 Opción multiple
             .col-auto
               a.boton.boton--b.color-acento-contenido(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
