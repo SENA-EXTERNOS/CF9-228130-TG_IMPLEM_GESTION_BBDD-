@@ -35,13 +35,13 @@
               figcaption Nota: Adaptada de SaS (s/f). Weclapp (2021).  
           div(x="23.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 SaaS
-            p Software como servicio (SaaS); en este los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como lo es la (CRM) o gestión de relaciones con clientes, orientación a el marketing y análisis empresarial.
+            p #[em Software] como servicio (SaaS); en este los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como lo es la (CRM) o gestión de relaciones con clientes, orientación a el #[em marketing] y análisis empresarial.
               br
               br
               |En este servicio los usuarios suben al #[em software] datos a cambio de pagar una cuota para el uso de esta información, que se aloja en servidores externos; es así como cuando se hace referencia a un #[em software] que está en la nube se habla de un SaaS.
               br
               br
-              |Un empleo de Saas seria en servicios como Microsoft Office 365 y CMS, con la plataforma de office los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática; este se ejecuta en servidores propios de Microsoft. También se tiene el CMS, que un software para el diseño de páginas web. (Gouigoux, 2018)
+              |Un empleo de Saas seria en servicios como Microsoft Office 365 y CMS, con la plataforma de #[em office] los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática; este se ejecuta en servidores propios de Microsoft. También se tiene el CMS, que un #[em software] para el diseño de páginas #[em web.] (Gouigoux, 2018)
 
           div(x="49.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 PaaS
@@ -75,21 +75,21 @@
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Tipos de nubes
-    p.mb-5(data-aos='fade-right') Las empresas al ofrecer sus servicios a través de la web (nube) pueden presentarlo en tres tipos:
+    p.mb-5(data-aos='fade-right') Las empresas al ofrecer sus servicios a través de la #[em web] (nube) pueden presentarlo en tres tipos:
     .row.justify-content-center.mb-5
       .col-lg-10
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/4.svg', alt='Texto que describa la imagen').mb-3
               figcaption Nota: Adaptado de (s/f). Copimar.
-          .tarjeta.color-acento-botones.p-3.text-black(x="17.5%" y="39%" numero="+")
+          .tarjeta.color-acento-botones.p-3.text-black(x="12.5%" y="39%" numero="+")
             h5.mb-2 Nube privada
             p.mb-0 Esta es una red que está protegida brindando servicios de administración con limitaciones a personas, normalmente son empresas grandes y entidades que se caracterizan por este tipo de almacenamiento.
           .tarjeta.color-acento-botones.p-3.text-black(x="50%" y="39%" numero="+")
             h5.mb-2 Nube hibrida
             p.mb-0 Este tipo de nube permite ampliar el servicio según los requerimientos y necesidades del usuario.
-          .tarjeta.color-acento-botones.p-3.text-black(x="83%" y="39%" numero="+")
+          .tarjeta.color-acento-botones.p-3.text-black(x="88%" y="39%" numero="+")
             h5.mb-2 Nube pública
             p.mb-0 En este sistema el proveedor vende servicios en la internet brindando recursos abiertamente como es el caso de Amazon, Azure o Google Engine.
 

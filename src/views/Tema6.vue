@@ -69,19 +69,19 @@
             ul.lista-ul--color
               li
                 i.fas.fa-check.fa-xs(style="color: #084a93") 
-                | Cambiar el directorio a #[em /path/to/proyect.]
+                p.mb-0 Cambiar el directorio a #[em /path/to/proyect.]
 
               li
                 i.fas.fa-check.fa-xs(style="color: #084a93") 
-                | Crear un archivo nuevo comminttest.txt con el contenido #[em “Test”.]
+                p.mb-0 Crear un archivo nuevo comminttest.txt con el contenido #[em “Test”.]
 
               li
                 i.fas.fa-check.fa-xs(style="color: #084a93") 
-                | Ejecutar el comando Git #[em add] para añadir committest.txt al área de preparación del repositorio.
+                p.mb-0 Ejecutar el comando Git #[em add] para añadir committest.txt al área de preparación del repositorio.
 
               li
                 i.fas.fa-check.fa-xs(style="color: #084a93") 
-                  | Crear un #[em commit] nuevo con un mensaje que describa que el trabajo se ha hecho en el #[em commit.]
+                p.mb-0 Crear un #[em commit] nuevo con un mensaje que describa que el trabajo se ha hecho en el #[em commit.]
             p Es importante diferenciar las copias de trabajo en Git a las copias de trabajo al extraer código fuente de un repositorio SVN; a diferencia de SVN, Git no distingue entre las copias de trabajo y el repositorio central, es por eso que colaborar con Git es distinto que con SVN.
               br
               br

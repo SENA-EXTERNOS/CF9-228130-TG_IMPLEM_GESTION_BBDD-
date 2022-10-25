@@ -25,7 +25,7 @@
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.1 Generalidades
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(style='border: 2px solid #ffb30b')
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/2.svg')})`}"
       )
@@ -129,7 +129,7 @@
           div(titulo="Run")
             p # docker run …
               br
-              |Este comando identifica que se va a alanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor     
+              |Este comando identifica que se va a alanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
           div(titulo="- -rm")
             p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo este en el contenedor y ejecutar algo dentro.
           div(titulo="- -name")

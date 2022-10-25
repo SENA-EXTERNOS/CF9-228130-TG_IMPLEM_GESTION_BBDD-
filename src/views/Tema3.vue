@@ -115,28 +115,28 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Oracle VirtualBox
+                  p.mb-0 Oracle VirtualBox
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic VMware Workstation Pro
+                  p.mb-0 VMware Workstation Pro
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic OpenVZ
+                  p.mb-0 OpenVZ
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic QEMU
+                  p.mb-0 QEMU
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic KVM
+                  p.mb-0 KVM
                 li
                   i.fas.fa-check.fa-xs
                   p.mb-0.fst-italic Parallels Desktop for Mac
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic VMware Fusion Pro
+                  p.mb-0 VMware Fusion Pro
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Microsoft Hyper-V Manager
+                  p.mb-0 Microsoft Hyper-V Manager
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/8.svg', alt='')
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -170,17 +170,17 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Servicios de infraestructura: la nube hibrida de Microsoft permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
+                  p.mb-0 Servicios de infraestructura: la nube hibrida de Microsoft permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Desarrollo de aplicaciones modernas: esta nos permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático se tienen #[em App service web] y movilidad multimedia.
+                  p.mb-0 Desarrollo de aplicaciones modernas: esta nos permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático se tienen #[em App service web] y movilidad multimedia.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Información basada en datos: se pueden extraer información de todos los datos, estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
+                  p.mb-0 Información basada en datos: se pueden extraer información de todos los datos, estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Administración de identidad: #[em Active directory] es una solución en la nube completa para la administración de identidades y acceso, puede a su vez administrar las cuentas de usuario y sincronizar con directorios locales.
+                  p.mb-0 Administración de identidad: #[em Active directory] es una solución en la nube completa para la administración de identidades y acceso, puede a su vez administrar las cuentas de usuario y sincronizar con directorios locales.
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
         div(style="background-color: #00defc").p-3
@@ -190,19 +190,19 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Desarrollo y operación a través del trabajo colaborativo: con una cultura en el desarrollo, implementación, administración de aplicaciones en la nube, el equipo TI tiene la ventaja de aumentar su productividad.
+                  p.mb-0 Desarrollo y operación a través del trabajo colaborativo: con una cultura en el desarrollo, implementación, administración de aplicaciones en la nube, el equipo TI tiene la ventaja de aumentar su productividad.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Seguridad en la nube: uno de los temas más interesantes en las empresas es la migración de la información en sistemas locales al entorno de la nube.
+                  p.mb-0 Seguridad en la nube: uno de los temas más interesantes en las empresas es la migración de la información en sistemas locales al entorno de la nube.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Resiliencia en la nube: una de las ventajas en la nube es bajar los costos con el uso de un #[em hardware] optimizado, anteriormente las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
+                  p.mb-0 Resiliencia en la nube: una de las ventajas en la nube es bajar los costos con el uso de un #[em hardware] optimizado, anteriormente las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Análisis de los datos: la plataforma de Microsoft Azure ofrece herramientas para ordenar los algoritmos y categorías de la información recopilada.
+                  p.mb-0 Análisis de los datos: la plataforma de Microsoft Azure ofrece herramientas para ordenar los algoritmos y categorías de la información recopilada.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic Inteligencia artificial: la plataforma revoluciona como organiza la información y los recursos TI, además permite desarrollar una cultura de cooperación basada en el aprendizaje, optimización y pruebas. (Philippe, 2021).
+                  p.mb-0 Inteligencia artificial: la plataforma revoluciona como organiza la información y los recursos TI, además permite desarrollar una cultura de cooperación basada en el aprendizaje, optimización y pruebas. (Philippe, 2021).
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/11.svg', alt='')
     Separador
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -281,6 +281,7 @@
           |AWS fue lanzado en el año 2006 ofreciendo servicios para sitios web, la mayoría de estos servicios no están expuestos a los usuarios finales y a esta se ingresa a través del protocolo HTTP. (Serrano, 2022)
       .cajon-b.color-secundario.p-3.mb-5.abajo-derecha
         p.mb-0 En el año 2020, AWS hizo convenios con la empresa colombiana SENA, para formar profesionales en tecnologías como ciencias de datos, inteligencia artificial y cloud computing, con lo que se espera formar a más de 150,000 colombianos.
+      p.mb-5(data-aos='fade-right') Amazon Web Service ofrece herramientas como las siguientes:
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/13.jpg', alt='')

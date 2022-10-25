@@ -238,7 +238,7 @@ export default {
     {
       tema: 'Windows Server 2008: Los Servicios De Red TCP/IP',
       referencia:
-        'Philippe, F. (2010). Windows server 2008: los servicios de red TCP/IP. Ediciones ENI.',
+        'Philippe, F. (2010). <em>Windows server 2008: los servicios de red TCP/IP. Ediciones</em> ENI.',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP',
@@ -246,7 +246,7 @@ export default {
     {
       tema: 'Microsoft Azure: Gestione Su Sistema De Información En La Nube',
       referencia:
-        'Philippe, P. (2021). Microsoft Azure: gestione su sistema de información en la nube. Ediciones ENI.',
+        'Philippe, P. (2021). <em> Microsoft Azure: gestione su sistema de información en la nube. Ediciones</em> ENI.',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
