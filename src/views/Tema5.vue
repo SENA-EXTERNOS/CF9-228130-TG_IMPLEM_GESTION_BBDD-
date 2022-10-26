@@ -171,7 +171,7 @@
                   h3.mb-1 Instalación del contenedor
                   p.text-small Igualmente puede visualizar el paso a paso correspondiente haciendo clic en el botón descargar.
                 .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.text-black(:href="obtenerLink('downloads/doc1.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.text-black(:href="obtenerLink('downloads/CF9_228130_Anexo.pdf')" target="_blank" type="application/pdf")
                     span Descargar 
                     i.fas.fa-file-download
 </template>
