@@ -65,7 +65,7 @@
           div(titulo="Git <em> clone</em>")
             p Si se quiere clonar un repositorio existente se hace mediante el comando Git #[em clone]; la clonación suele ser una operación única, todas las operaciones de control de versiones se administrar por medio de su repositorio local.
           div(titulo="Git <em> add</em>")
-            p Para guardar cambios en el repositorio se usan los comandos Git #[em Add], pero antes se pueden realizar commits en la versión del archivo, los pasos que se deben hacer son los siguientes:
+            p Para guardar cambios en el repositorio se usan los comandos Git #[em add], pero antes se pueden realizar commits en la versión del archivo, los pasos que se deben hacer son los siguientes:
             ul.lista-ul--color
               li
                 i.fas.fa-check.fa-xs(style="color: #084a93") 
