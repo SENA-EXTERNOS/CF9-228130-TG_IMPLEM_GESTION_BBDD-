@@ -9,7 +9,7 @@
 
 
     .row.justify-content-center
-      .col-lg-4.mb-5
+      .col-md-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-10.d-flex.justify-content-center
