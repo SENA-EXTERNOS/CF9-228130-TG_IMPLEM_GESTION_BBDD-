@@ -8,24 +8,31 @@
       h1 Servicios de red
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red se hace referencia a estos servicios se basan en una red de trabajo los cuales son instalados en el #[em firewall] del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas ayudando a que la red funcione eficazmente. (Philippe, 2010)
+        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red, se hace referencia a aquellos que se basan en una red de trabajo, los cuales son instalados en el firewall del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas ayudando a que la red funcione eficazmente. (Philippe, 2010)
+
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da")
-          p.mb-0 La arquitectura de los servicios de red es fundamentalmente la de cliente-servidor y en algunos de estos servicios de red el cliente puede configurar de forma automática la gestión del servicio. Dentro del servicio de red más utilizado está el de; (DHCP) Protocolo de Configuración Dinámica de #[em Host]. Este es un estándar diseñado para reducir la carga administrativa y la complejidad de la configuración de #[em hosts] en un Protocolo de Control de Transmisión / Protocolo de Internet (TCP/IP) basado en red.
+          p.mb-0 La arquitectura de los servicios de red es fundamentalmente la de cliente-servidor y en algunos de estos servicios de red el cliente puede configurar de forma automática la gestión del servicio. Dentro del servicio de red más utilizado está el de; (DHCP) Protocolo de Configuración Dinámica de Host. Este es un estándar diseñado para reducir la carga administrativa y la complejidad de la configuración de <em>hosts</em> en un Protocolo de Control de Transmisión / Protocolo de Internet (TCP/IP) basado en red.
         p.mb-5(data-aos='fade-right') Se puede gestionar la configuración TCP/IP en los equipos clientes de forma automática en el protocolo DHCP con relación al siguiente esquema.
       .col-lg-5.col-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1.
           br
-          span Servicios de red
+          span <em>Servicios de red</em>
         figure
           img(src='@/assets/curso/temas/tema1/1.svg', alt='').mb-2
-          figcaption Nota. Tomado de Linares (2017)
-    Separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Generalidades
+          figcaption Nota. Tomado de Linares (2017). 
+    
+    
+    .row.mt-5
+      ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3 Generalidades
+
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p El fin de una red es que los usuarios de una entidad u empresa puedan optimizar los recursos para garantizar un rendimiento eficaz, es por esto por lo que las organizaciones cuentan con grandes beneficios a la hora de trabajar en red como lo son:
+        p La finalidad de una red se fundamenta en que los usuarios de una entidad o empresa, puedan optimizar los recursos para garantizar un rendimiento eficaz; es por esta razón, que las organizaciones cuentan con grandes beneficios a la hora de trabajar en red, como son los que veremos a continuación:     
+        
         ul.lista-ul--color
           li
             i.fas.fa-circle.fa-xs(style='color: #00defc')
@@ -52,7 +59,13 @@
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Reduce los costos en los procesos.
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.svg', alt='')
-    Separador
+    
+    .row.mt-5
+      ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3 Acuerdos de nivel de servicio
+
     .row.justify-content-center.mb-5
       .col-lg-5.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
       .col-lg-7(data-aos="fade-left") 
@@ -60,9 +73,13 @@
         .cajon.color-primario.p-4.mb-4(style="background-color: #dae4ef")
           p.mb-0 ¿Ahora bien, porque son importantes los SLA?, los proveedores que suministran servicios necesitan de los acuerdos de nivel de servicio para ayudar administrar las expectativas de los clientes y mirar las circunstancias en las que no son responsables de la calidad del servicio; también hay un beneficio por parte de los clientes ya que estos describen las características en el rendimiento del servicio.
         p Los SLA entonces ayudan a gestionar los problemas del servicio, estos se incorporan generalmente en un contrato de servicio del proveedor; ahora bien, ¿qué conteniente un SLA?, estos generalmente tienen declarados los objetivos y una lista de servicios que están cubiertos por el acuerdo, este definirá las responsabilidades del mismo. El SLA incluye las exclusiones explicando las situaciones en que las garantías no se aplican, este puede ser eventos como actos terroristas o desastres causados por la naturaleza.
-    Separador
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Calidad del servicio
+    
+    .row.mt-5
+      ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3 Calidad del servicio
+
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p El término de calidad del servicio se refiere a la capacidad de una red para brindar los distintos niveles de garantías al servicio en el tráfico; ahora bien, que el QoS es una técnica que mejora el uso de la red en donde se priorizara el tráfico.
@@ -83,11 +100,15 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2.
           br
-          span Calidad del servicio en la red. 
-        img(src='@/assets/curso/temas/tema1/4.svg', alt='')
-    Separador
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.4 Conceptos de servicios de redes
+          span <em>Calidad del servicio en la red</em>
+        img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
+    
+    .row.mt-5
+      ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3 Conceptos de servicios de redes
+
     p.mb-5(data-aos='fade-right') Podemos definir que los servicios de redes son un medio en donde dos o más sistemas se comunican; estas tienen una arquitectura que generalmente es la de cliente-servidor, en donde se exponen las tareas que el cliente puede consumir. A continuación, se encuentran los tipos de servicios en red:
     .contenedor-tarjetas.d-flex.flex-wrap.justify-content-center
         .col-md.tarjeta.p-4.m-1(style="background-color: #dae4ef")
@@ -110,7 +131,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/7.svg', alt='Texto que describa la imagen')
           h4.text-center Información
-          p Aquí los servidores almacenan información como lo son las bases de datos para que sean consultadas por un usuario #[em (Web)].
+          p Aquí los servidores almacenan información como lo son las bases de datos para que sean consultadas por un usuario (Web).
         .col-md.tarjeta.p-4.m-1(style="background-color: #dae4ef")
           .row.justify-content-center.mb-4
             .col-7
@@ -125,11 +146,18 @@
                 img(src='@/assets/curso/temas/tema1/9.svg', alt='Texto que describa la imagen')
           h4.text-center Administración
           p Este elemento ayuda con la administración y configuración de los usuarios o clientes de la red (DHCP/DNS).
-    Separador
-    #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.5 Protocolos y servicios de red
+    
+    .row.mt-5
+      ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3 Protocolos y servicios de red
+
     .cajon-b.color-secundario.p-3.mb-5
-      p.mb-0 Los protocolos se definen como un conjunto de reglas seguidas en la red, estos son estándares y tienen políticas que definen la comunicación entre dos o más equipos en la red; estas políticas aseguran la comunicación de extremo a extremo y también los protocolos que deben ser instalados por el emisor y receptor para dar garantía a la comunicación de la red. (Philippe, 2010). Ahora bien, cuando se hace referencia a una pila de protocolos se está hablando del conjunto completo de capas que trabajan entre sí para brindar capacidades de red.
+      p.mb-0 Los protocolos se definen como un conjunto de reglas permanentes en la red; estos protocolos son estándares y tienen políticas que definen la comunicación entre dos o más equipos en la red; estas políticas aseguran la comunicación de extremo a extremo y también los protocolos que deben ser instalados por el emisor y receptor, para dar garantía a la comunicación de la red. (Philippe, 2010).
+      br
+      p Ahora bien, cuando se hace referencia a una pila de protocolos, se está hablando del conjunto completo de capas que trabajan entre sí, para brindar capacidades de red. 
+
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p Dentro de los protocolos más comunes, se encuentra el protocolo HTTP (protocolo de transferencia de hipertexto) que es la base de la comunicación de datos en la internet, también se encuentra el HTTPS (protocolo de transferencia de hipertexto sobre SSL/TLS), que utiliza los mismos servicios del HTTP, pero utilizando una conexión segura.
@@ -142,20 +170,17 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3.
           br
-          span Protocolos de red 
+          span <em>Protocolos de red</em> 
         img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
     .row.justify-content-center
       .col-lg-2.col-8(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/11.jpg', alt='')
       .col-lg-10(data-aos="fade-left")
-        .cajon-b.color-secundario.p-3.mb-5.abajo-derecha
-          p.mb-0 Ahora bien, con relación a los servicios de red se resaltan que estos facilitan la conexión entre dos o más ordenadores, dando como finalidad compartir recursos tanto en el #[em software] o en el #[em hardware], es por esto por lo que podemos compartir impresoras o programas en una red, así como también los servicios de red garantizan una mejor seguridad de la información.
-            br
-            br
-            |Un ejemplo más conciso seria la interconexión de ordenadores conectados en diferentes sitios del mundo, estos intercambian datos y recursos; las redes inalámbricas #[em Wifi] también son otro servicio de red; esta funciona sin cables y trabaja igual a los servicios de redes tradicionales.
+        p Ahora bien, con relación a los servicios de red, se resalta que estos facilitan la conexión entre dos o más ordenadores, dando como finalidad compartir recursos tanto en el <em>software</em> o en el hardware; es por esto, por lo que podemos compartir impresoras o programas en una red, así como también los servicios de red garantizan una mejor seguridad de la información.
 
+        p <b>Un ejemplo más conciso</b>  
 
-
+        p La interconexión de ordenadores conectados en diferentes sitios del mundo, estos intercambian datos y recursos; las redes inalámbricas Wifi también son otro servicio de red; esta funciona sin cables y trabaja igual, a los servicios de redes tradicionales.
 
 
 

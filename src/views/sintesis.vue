@@ -2,11 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h4.mb-0 Tecnólogo en implementación y gestión de bases de datos.
-      br 
-      span Síntesis: servicios de red, virtualización y pruebas de red
 
+
+    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
     .row.justify-content-center
       .col-md-10.mb-5

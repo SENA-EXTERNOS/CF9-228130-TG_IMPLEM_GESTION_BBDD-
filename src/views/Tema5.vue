@@ -5,180 +5,107 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Contenedores
-    .bloque-texto-derecha
-      .bloque-texto-a.bloque-texto-p.p-4.mb-5(data-aos="zoom-in" style="background-color: #ffecc1 ")
-        .row.m-0.align-items-center.justify-content-between
-          .col-lg-8
-            .contenedor-dashed.p-4
-              .bloque-texto-a__texto.p-4
-                p.mb-0 Son paquetes ligeros que tienen códigos de aplicaciones al igual que sus dependencias, además contienen bibliotecas indispensables para la ejecución de los servicios del software; algo que resaltar es que es muy fácil compartir recursos a nivel de sistema operativo.
+      h1 Sistemas de control de versiones, GIT, integración y entrega continua
 
-                  br
-                  br
-                  |Los contenedores se pueden definir como un mecanismo emergente que utiliza medios de pruebas de aplicaciones; este se utiliza en computadores domésticos y de igual manera ofrece soluciones de red empresariales utilizando la web, se puede asimilar un contenedor con una máquina virtual ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios, sistemas de archivos. (Gouigoux, 2018)
-                  br
-                  br
-                  |También es posible ejecutar varios contenedores al tiempo cada uno con sus instalaciones y dependencias, los contenedores comparten recursos del host, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales como plataformas para la implementación de microservicios. 
-          .col-lg-4.mb-4.mb-lg-0.p-4
-            img(src='@/assets/curso/temas/tema5/1.svg', alt='')
-    Separador
-    #t_5_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 5.1 Generalidades
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(style='border: 2px solid #ffb30b')
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/2.svg')})`}"
-      )
-      .contenedor-dashed.p-3.position-relative.d-flex.justify-content-end.w-60
-        .bloque-texto-g__texto.p-4.w-100
-          p.mb-0 Al utilizar contenedores los clientes evitan que se produzcan problemas de incompatibilidad o bloqueos, esto hace que mejore el rendimiento de todos los equipos; es por esto por lo que los desarrolladores se pueden enfocar en la aplicación y sin sistemas operativos. Los contenedores ofrecen un óptimo despliegue en clúster, al dividir los componentes en contenedores los desarrolladores también pueden actualizar individualmente en vez de reprocesar toda la aplicación.
-            br
-            br
-            |Ahora bien, con relación a la diferencia entre las máquinas virtuales y los contenedores se puede decir que las máquinas virtuales emulan el #[em hardware] para que se puedan ejecutar en varias instancias en un mismo sistema operativo, otra de las ventajas es que se pueden ejecutar diferentes sistemas operativos en un mismo servidor. Ahora bien, un contenedor virtualiza el sistema operativo y hace que la aplicación en el contenedor crea que tiene el sistema operativo, este se puede ejecutar desde cualquier lugar y para esto no se necesita arrancar un sistema operativo ni cargar bibliotecas. (Gouigoux, 2018)
-    Separador
-    #t_5_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 5.2 Características
-    p.mb-5(data-aos='fade-right') Dentro de las características de los contenedores se pueden encontrar las siguientes:
-    .row.justify-content-center.mb-5
-      .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/3.svg', alt='')
-      .col-lg-10(data-aos="fade-left")
-        .cajon-b-amarillo
-          .cajon-b.color-primario.p-3.pb-0
-            ol.lista-ol--cuadro
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 1
-                p.mb-0 #[b Portabilidad:] pues ofrece la posibilidad de desplegarlo en cualquier otro sistema, y además permite un ahorro en la posibilidad de tener que instalar aplicaciones que normalmente se usan en el entorno.
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 2
-                p.mb-0 #[b Disponibilidad para uso desde cualquier parte:] permite ejecutar aplicaciones y proyectos desde cualquier parte del mundo, brindando tranquilidad en la realización de aplicativos, evitando el uso de discos externos y memorias entre otros dispositivos.
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 3
-                p.mb-0 #[b Agilidad:] en estos entornos portables en donde no se necesita la ejecución de sistemas operativos e instalación de aplicativos que hacen que el trabajo sea más lento; se destacan los contenedores en el trabajo ágil y ligero para el desarrollo de los proyectos de software.
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 4
-                p.mb-0 #[b Seguridad:] este permite la ejecución de paquetes y aplicativos de forma segura utilizando Linux como núcleo, a su vez los contenedores utilizan su propio sistema operativo y nos brindan seguridad en la información.
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 5
-                p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos web se garantiza que las maquinas no usen su #[em hardware] y #[em software], ya que se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de #[em hardware] según los requerimientos determinados por el cliente.
-          .cajon-b.color-primario.p-3.pt-0.mb-5.abajo-derecha
-            ol.lista-ol--cuadro
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 6
-                p.mb-0 #[b Mayor eficiencia:] los contenedores brindan los recursos suficientes para el desarrollo de los proyectos requeridos por el cliente.
+    .row.mt-5
+ 
+      p A través de los sistemas de control de versiones, se pueden gestionar y rastrear los cambios que se presentan en el código de un <em>software</em>.
 
-              li
-                .lista-ol--cuadro__vineta(style='background-color: #084a93')
-                  span 7
-                p.mb-0 #[b Mejor desarrollo de aplicaciones:] permiten el uso de amplias herramientas para el desarrollo de aplicaciones en lenguajes de programación básicos y avanzados, permitiendo calidad en el desarrollo de aplicativos.
-    Separador
-    #t_5_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 5.3 Imágenes
-    p.mb-5(data-aos='fade-right') Es una plantilla de solo lectura con todas las instrucciones que necesita el motor de Docker para crear un contenedor. Una imagen #[em Docker] se describe en forma de archivo de texto; antes de iniciar un contenedor en un sistema se carga un paquete con la imagen correspondiente si no está ya guardada de forma local.
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/4.svg', alt='')
-      .col-lg-8(data-aos="fade-left")
-        div(style="background-color: #00defc").p-3
-          .contenedor-dashed.p-3
-            .bg-white.p-3
-              p.mb-0 Una imagen en contenedores es un archivo o file que está compuesto por varias capas y se utiliza para ejecutar un código dentro de un contenedor, ellas contienen un sistema de ficheros en los que se va a basar el mismo para un óptimo funcionamiento de manera en que estas imágenes actúan como un conjunto instrucciones para la construcción de un contenedor, así como lo hace una plantilla.
-                br
-                br
-                |La ejecución de una imagen dentro de un contenedor implica la posibilidad de convertirse en una o varias instancias, estas imágenes se pueden comparar con un sistema de máquinas virtuales que se utiliza en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, uno de los más conocidos es el Docker hub, en donde se pueden encontrar imágenes públicas que se pueden utilizar en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. Gouigoux. (2018)
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-left")
-        div(style="background-color: #ffb30b").p-3
-          .contenedor-dashed.p-3
-            .bg-white.p-3
-              p.mb-0 Ahora bien, cuando se habla de capas se hace referencia a las imágenes están hechas de capas ordenas; se puede decir que una capa es un conjunto de cambios en el sistema de archivos, cuando se toman todas las capas y se apilan se obtiene una nueva imagen que contiene cambios, esto quiere decir que cada vez que se crea una capa hay que tener en cuenta el orden y que va a contener cada una de ellas; por ejemplo, si en una capa se crea un archivo en la siguiente capa se elimina  y en la otra se hace uso del mismo, esto generaría un error. Es por esto por lo que se debe tener en cuenta que capa se está ejecutando en el programa.
-                br
-                br
-                |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación web desarrollada instalada, las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privadas y públicas y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente cuando se crea una imagen se parte de una imagen padre, a la que se le van adicionando cosas.
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.svg', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="zoom-in")
-        div(style=' background-color: #d9faff; border-left: 10px solid #00defc').p-5
-          h5 ¿Cómo se construye una imagen?
-          p Una imagen no es un archivo individual, se trata más bien de una agrupación de distintos componentes, los cuales se detallarán a continuación:
-          ul.lista-ul--color
-            li
-              i.fas.fa-check.fa-xs(style='color: #00defc')
-              | Capa de imágenes: esta contiene datos que son agregados al operar en sistemas de archivo, en este caso las capas se sobreponen.
+      p Dentro de los elementos importantes de los sistemas de control de versiones, se resaltan los siguientes:
 
-            li
-              i.fas.fa-check.fa-xs(style='color: #00defc')
-              | Imagen padre: esta es la capa fundamental y ancla la imagen al árbol genealógico. 
-
-            li
-              i.fas.fa-check.fa-xs(style='color: #00defc')
-              | Manifiesto de imagen: describe la agrupación de las capas que contiene. (Gouigoux, 2018)
-    Separador
-    #t_5_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 5.4 Despliegue y gestión
-    p.mb-5(data-aos='fade-right') Para el despliegue y la gestión lo primero que se debe hacer es crear una imagen en Docker, para así poder lanzar un contenedor a partir de ella. A continuación, se presentan los comandos a utilizar para el despliegue: 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema5/6.svg', alt='')
+        img(src='@/assets/curso/temas/tema6/1.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          div(titulo="Run")
-            p # docker run …
+          div(titulo="¿Qué es?")
+            p Es una herramienta que vigila y gestiona cambios en un sistema de archivos de igual manera un VCS monitorizara las adiciones, eliminaciones y modificaciones en las líneas de texto que contiene el archivo.
               br
-              |Este comando identifica que se va a alanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
-          div(titulo="- -rm")
-            p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo este en el contenedor y ejecutar algo dentro.
-          div(titulo="- -name")
-            p Se utiliza para darle un nombre o identificación a nuestro contenedor.
-          div(titulo="-d")
-            p Hace que un contenedor corra por debajo después de terminar la ejecución del comando.
-          div(titulo="-it")
-            p Abre un canal interactivo, una terminal. 
-          div(titulo="-p")
-            p Este comando asigna puertos entre el local y el contenedor.
               br
-              |Ejemplo:
+              |Es la práctica de rastrear y gestionar los cambios en el código de <em>software</em>; los sistemas de control de versiones son #[em software] que mejoran a los equipos de #[em software] al gestionar los cambios en el código fuente a lo largo del tiempo; estos entornos se aceleran y los sistemas de control mejoran los tiempos en la gestión de los proyectos. (Dauzon, 2022)    
+          div(titulo="Utilizado para")
+            p Son especialmente utilizados para equipos de <em>DevOps</em>, ya que permiten reducir tiempo en el desarrollo; también se puede decir que se realizan seguimientos a las modificaciones del código en un tipo especial de bases de datos, en este si comete un error en la codificación los desarrolladores pueden ir a sus versiones anteriores y hacer comparaciones para ayudar a resolver los errores, lo que permite minimizar las interrupciones a todos los miembros del equipo.
               br
-              |-p 8080:8080
               br
-              |-p 8080
-          div(titulo="- -privileged")
-            p Sirve para darle permisos al contenedor como si fuera el localhost.
-          div(titulo="-v")
-            p Permite compartir directorios en el contenedor, tener la aplicación en el localhost y compartirla al contenedor.
-          div(titulo="- -link ")
-            p Esto enlaza un contenedor a otro.
-    .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
-      i.fas.fa-square.fa-xs(style=" color:#ffb30b").me-3
-      h3.mb-0 Instalación del contenedor
-    p.mb-5(data-aos='fade-right') En el siguiente video se puede observar el proceso de Instalación de un contenedor (Docker) en sistema operativo Windows, es importante prestar mucha atención a todos los procedimientos y explicaciones que se detallan en allí:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/sKAKbpdS7Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              |Para los proyectos de desarrollo de #[em software] el código fuente es fundamental ya que se convierte en un activo valioso cuyo valor debe protegerse; es por eso por lo que el control de versiones protege el código tanto de las catástrofes como del deterioro causal de los errores y consecuencias accidentales.
+          div(titulo="Puede ayudar a")
+            p Los desarrolladores que trabajan continuamente en grupo escribiendo líneas de código y modificando los existentes, el código del proyecto generalmente se organiza en una estructura de carpetas o árbol de archivos; un desarrollador del equipo podría estar trabajando en una rama del árbol mientras otro desarrollador podría hacer cambios en varias partes del árbol de archivos.
+              br
+              br
+              |El control de versiones ayuda a el grupo de desarrolladores a resolver este tipo de problemas al realizar seguimiento a todos los cambios individuales de cada colaborador, esto al contribuir a evitar que el trabajo entre en conflicto; los cambios realizados por una parte del <em>software</em> pueden ser incompatibles con los que hayan escrito o desarrollado otros desarrolladores que estén trabajando al mismo tiempo. Este problema debe gestionarse de una manera ordenada sin interferir en el trabajo del resto del equipo, un buen #[em software] de control de versiones soporta el fujo de trabajo de un desarrollador sin imponer una forma de trabajar, también forma en cualquier plataforma. Estos también facilitan el flujo sencillo y continuo del código.
+          div(titulo="Equipos de <em>software</em>")
+            p Los equipos de software que no utilizan ninguna plataforma de control de versiones, con frecuencia se encuentran con problemas como el no saber qué cambios que se han realizado están disponibles para los usuarios; si es un desarrollador que nunca ha utilizado el control de versiones, puede que haya añadido versiones a los archivos y el <em>software</em> de control de versiones es una parte fundamental en el área de las prácticas profesionales del equipo de mismo. Los desarrolladores individuales están acostumbrados a trabajar con un sistema de control de versiones potente, en sus equipos; por ende, suelen reconocer el increíble valor que el control de versiones da a los proyectos. (Dauzon, 2022)z
+    .row.justify-content-center.mb-5.g-0.align-items-center
+      .col-lg-8(data-aos="fade-left")
+        div(style="background-color: #ffb30b").p-3
+          .contenedor-dashed.p-4
+            .bg-white.p-4
+              h5 Repositorios Git
+              p.mb-0 Git es un sistema de control de versiones y de código abierto creado originalmente por Linus Torvalds en 2005. A diferencia de los antiguos sistemas centralizados como SVN y CVS, Git está distribuido de forma en que cada desarrollador tiene la posibilidad de mirar la trazabilidad completa de su repositorio de manera local, de este modo la clonación inicial es más lenta pero las operaciones posteriores como el #[em commit, diff, marge] y #[em log] son mucho más rápidas.
+                br
+                br
+                |Los repositorios <em>Git</em> incluyen las funcionalidades de crear ramas, fusionar y reescribir información en los proyectos, lo cual ha resultado de mucha ayuda en trabajos colaborativos por su fluidez en trabajos innovadores y eficaces. También es una de las herramientas más populares con la que los equipos pueden colaborar en las ramas y revisar con eficacia el código de los demás; se considera el modelo actual para el desarrollo del <em>software</em>.
+      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema6/2.svg', alt='')
+    .row.justify-content-center.mb-5.g-0.align-items-center
+      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema6/3.svg', alt='')
+      .col-lg-8(data-aos="fade-left")
+        div(style="background-color: #00defc").p-3
+          .contenedor-dashed.p-4
+            .bg-white.p-4
+              p.mb-0 Estos repositorios son instalaciones virtuales donde se almacenan investigaciones científicas según su temática multidisciplinaria; estos pueden ser de tres tipos como: repositorios institucionales que son creados por las propias empresas para almacenar, usar y preservar a producción científica; también se encuentran repositorios temáticos que fueron creados por investigadores o instituciones, que reúnen información en un área específica; por último, se tienen los repositorios de datos que almacenan, conservan y comparten los datos de las investigaciones. (Dauzon, 2022)
+
+                br
+                br
+                |También se puede mencionar que un repositorio Git es un almacenamiento virtual para la gestión de un proyecto, esto porque permite guardar versiones del código a las que se puede acceder cuando se necesite. Git almacena las opciones de configuración en tres archivos, lo que permite el ajuste individual local, global y de sistema; en conclusión, todas las opciones de configuración se almacenan en archivos de texto sin formato, así que el comando Git #[em config] en realidad no es más que una interfaz practica de línea de comandos. En entrega continua se mejora la productividad del desarrollo ya que se reducen los errores y los #[em bugs] enviados a los clientes, también se optimiza los tiempos de encontrar errores gracias a la realización de pruebas; lo que permite al equipo de producción entregar las actualizaciones de manera rápida.
     .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.color-primario.p-3.mb-5.bg-gradient
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema5/7.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-10.mb-3.mb-sm-0
-                  h3.mb-1 Instalación del contenedor
-                  p.text-small Igualmente puede visualizar el paso a paso correspondiente haciendo clic en el botón descargar.
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.text-black(:href="obtenerLink('downloads/CF9_228130_Anexo.pdf')" target="_blank" type="application/pdf")
-                    span Descargar 
-                    i.fas.fa-file-download
+      .col-lg-10(data-aos="zoom-in")
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ffe4a9")
+          p.mb-0 Gracias a que la integración permite a los desarrolladores subir y fusionar los cambios del código en una misma rama del repositorio, el objetivo de la integración es garantizar que las nuevas características se fusionen a la base del código y al código entrante; esto se traduce en ejecución de pruebas. (Dauzon, 2022)
+    p.mb-5(data-aos='fade-right') Git es una plataforma de desarrollo colaborativo donde se almacenan proyectos que utilizan un sistema para el control de versiones. Para entenderlo es necesario explicar cada uno de los comandos para el manejo de la herramienta, que se hace indispensable para cualquier grupo o proyecto de <em>software</em>. Dentro de los comandos básicos se encuentran:
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-left")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Git <em> init</em>")
+            p Para crear un nuevo repositorio se usa el comando Git #[em Init], este es un comando que se utiliza una vez durante la configuración inicial. Cuando se ejecuta este comando se creará un nuevo subdirectorio git en el repositorio actual, también se creará una nueva rama principal.
+          div(titulo="Git <em> clone</em>")
+            p Si se quiere clonar un repositorio existente se hace mediante el comando Git #[em clone]; la clonación suele ser una operación única, todas las operaciones de control de versiones se administrar por medio de su repositorio local.
+          div(titulo="Git <em> add</em>")
+            p Para guardar cambios en el repositorio se usan los comandos Git #[em add], pero antes se pueden realizar commits en la versión del archivo, los pasos que se deben hacer son los siguientes:
+            ul.lista-ul--color
+              li
+                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                p.mb-0 Cambiar el directorio a #[em /path/to/proyect.]
+
+              li
+                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                p.mb-0 Crear un archivo nuevo comminttest.txt con el contenido #[em “Test”.]
+
+              li
+                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                p.mb-0 Ejecutar el comando Git #[em add] para añadir committest.txt al área de preparación del repositorio.
+
+              li
+                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                p.mb-0 Crear un #[em commit] nuevo con un mensaje que describa que el trabajo se ha hecho en el #[em commit.]
+            p Es importante diferenciar las copias de trabajo en Git a las copias de trabajo al extraer código fuente de un repositorio SVN; a diferencia de SVN, Git no distingue entre las copias de trabajo y el repositorio central, es por eso que colaborar con Git es distinto que con SVN.
+            br
+            br
+            |Se puede añadir también una URL de un repositorio remoto al Git config local y configurar una rama de nivel superior para ramas locales; el comando Git remote ofrece esta utilidad, un ejemplo de esto sería.
+            br
+            br
+            | <em>Git remote add</em>, este comando asignará el repositorio remoto a una referencia en el repositorio local y una vez asignado, se podrá enviar a las ramas locales.
+
+          div(titulo="Git <em> push -u</em>")
+            p Este comando enviara la rama del repositorio local además a configuración del URL del repositorio remoto, este puede pedir configurar ajustes como el #[em username] o el #[em email-] El comando Git #[em config] permite configurar la instalación de Git desde la línea de comandos, este comando puede definir ciertos ajustes, desde la información del usuario hasta las preferencias o el comportamiento del repositorio.
+      .col-lg-4.col-8(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema6/4.svg', alt='')
+
+    
 </template>
 
 <script>
 export default {
-  name: 'Tema5',
+  name: 'Tema6',
   data: () => ({
     // variables de vue
   }),

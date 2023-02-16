@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="505" height="317" viewBox="0 0 505 317">
+  <g id="Grupo_137852" data-name="Grupo 137852" transform="translate(-912 -2204)">
+    <path id="Rectángulo_41248" data-name="Rectángulo 41248" d="M20,20H485a20,20,0,0,1,20,20V317a20,20,0,0,1-20,20H20A20,20,0,0,1,0,317V40A20,20,0,0,1,20,20Z" transform="translate(912 2184)" fill="#b9ddfc" opacity="0.35"/>
+    <path id="Trazado_189584" data-name="Trazado 189584" d="M-430.106-211.9H-531.87V37.419h101.764c9.144,0,16.557-55.811,16.557-124.658S-420.962-211.9-430.106-211.9Z" transform="translate(1807.838 2447.896)" fill="#002859" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <ellipse id="Elipse_4827" data-name="Elipse 4827" cx="16.558" cy="124.658" rx="16.558" ry="124.658" transform="translate(1259.41 2236)" fill="#004997" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189585" data-name="Trazado 189585" d="M-544.836-136.1H-692.473V-76.64h147.636c1.594,0,2.886-13.311,2.886-29.729S-543.242-136.1-544.836-136.1Z" transform="translate(1829.154 2443.34)" fill="#aadefd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <ellipse id="Elipse_4828" data-name="Elipse 4828" cx="3.296" cy="29.73" rx="3.296" ry="29.73" transform="translate(1133.385 2307.24)" fill="#658699" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189586" data-name="Trazado 189586" d="M-548.355-69.508H-692.541V28.826h144.186c1.557,0,2.819-22.013,2.819-49.167S-546.8-69.508-548.355-69.508Z" transform="translate(1829.154 2447.666)" fill="#aadefd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <ellipse id="Elipse_4829" data-name="Elipse 4829" cx="3.228" cy="49.167" rx="3.228" ry="49.167" transform="translate(1133.385 2378.158)" fill="#658699" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189587" data-name="Trazado 189587" d="M-551.113-200.411H-692.594V-152.6h141.481c1.528,0,2.766-10.7,2.766-23.907S-549.585-200.411-551.113-200.411Z" transform="translate(1829.154 2447.569)" fill="#aadefd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <ellipse id="Elipse_4830" data-name="Elipse 4830" cx="3.175" cy="23.906" rx="3.175" ry="23.906" transform="translate(1133.385 2247.158)" fill="#658699" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189588" data-name="Trazado 189588" d="M-695.514-200.938h-105.2v47.812h105.2l22.823-23.906Z" transform="translate(1795.215 2448.096)" fill="#77f3fe" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189589" data-name="Trazado 189589" d="M-695.514-135.193h-105.2V-87.38h105.2l22.823-23.906Z" transform="translate(1795.215 2447.896)" fill="#00dffd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189590" data-name="Trazado 189590" d="M-684.506-63.46H-801.664v24.8h117.158l11.815-12.4Z" transform="translate(1796.164 2447.896)" fill="#ffb30b" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189591" data-name="Trazado 189591" d="M-683.557-32.741H-800.715v24.8h117.158l11.815-12.4Z" transform="translate(1795.742 2447.898)" fill="#ffb30b" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Trazado_189592" data-name="Trazado 189592" d="M-684.506-2.021H-801.664V40.267h117.158l11.815-21.144Z" transform="translate(1796.164 2447.896)" fill="#ffb30b" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <text id="Ancho_de_banda_total_disponible_" data-name="Ancho de
+banda total,
+disponible " transform="translate(1344.128 2347.949)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.33" y="0">Ancho de</tspan><tspan x="-36.463" y="16.8">banda total,</tspan><tspan x="-33.804" y="33.6">disponible </tspan></text>
+    <text id="Voz:_cola_de_prioridad" data-name="Voz: cola
+de prioridad" transform="translate(1205 2267.693)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-28.294" y="0">Voz: cola</tspan><tspan x="-37.146" y="14">de prioridad</tspan></text>
+    <text id="Video:_cola_de_blanco_y_negro_marcado_DSCP_de_calidad" data-name="Video: cola de blanco
+y negro + marcado
+DSCP de calidad" transform="translate(1146.583 2327.61)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Video: cola de blanco</tspan><tspan x="0" y="14">y negro + marcado</tspan><tspan x="0" y="28">DSCP de calidad</tspan></text>
+    <text id="Tráfico_de_audio" data-name="Tráfico
+de audio" transform="translate(960.894 2268.658)" fill="#002859" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-22.282" y="0">Tráfico</tspan><tspan x="-26.899" y="14">de audio</tspan></text>
+    <text id="Tráfico_de_video" data-name="Tráfico
+de video" transform="translate(960.894 2333.658)" fill="#002859" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-22.282" y="0">Tráfico</tspan><tspan x="-26.551" y="14">de video</tspan></text>
+    <text id="Web" transform="translate(1059 2400.927)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-13.846" y="0">Web</tspan></text>
+    <text id="Audio" transform="translate(1059 2275.658)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-18.026" y="0">Audio</tspan></text>
+    <text id="Video" transform="translate(1059 2340.658)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-17.801" y="0">Video</tspan></text>
+    <text id="Correo_electrónico_" data-name="Correo electrónico " transform="translate(1059 2431.658)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-59.097" y="0">Correo electrónico </tspan></text>
+    <text id="Transferencia_de_archivos" data-name="Transferencia
+de archivos" transform="translate(1058.512 2465.019)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-42.68" y="0">Transferencia</tspan><tspan x="-35.66" y="14">de archivos</tspan></text>
+    <text id="Otros_tráficos" data-name="Otros
+tráficos" transform="translate(960.894 2424.658)" fill="#002859" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-17.186" y="0">Otros</tspan><tspan x="-24.138" y="14">tráficos</tspan></text>
+    <text id="Entrega_de_mejor_esfuerzo_Cola" data-name="Entrega de mejor
+esfuerzo – Cola" transform="translate(1208.975 2423.658)" fill="#002859" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-52.938" y="0">Entrega de mejor</tspan><tspan x="-49.205" y="16.8">esfuerzo – Cola</tspan></text>
+  </g>
+</svg>

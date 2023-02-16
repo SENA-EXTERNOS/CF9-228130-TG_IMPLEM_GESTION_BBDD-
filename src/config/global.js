@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Servicios de red, virtualización y pruebas de red',
     descripcionCurso:
-      'La tecnología avanza a pasos significativos, es por esto que es importante tener claros muchos de los conceptos relacionados con esta temática. Hoy en día las empresas y organizaciones implementan sistemas de redes que permiten mejorar el rendimiento y productividad de las mismas; esto debido a que automatizan procesos brindando beneficios, entre los que se cuenta la reducción de gastos y tiempos de ejecución. Es por esto que la buena planificación, implementación y mantenimiento de una red es vital para la aplicación de tales tecnologías en las organizaciones. ',
+      'La tecnología avanza a pasos significativos, y es por esta razón que es importante tener claros muchos de los conceptos relacionados con esta temática. Hoy en día, las empresas y organizaciones implementan sistemas de redes que permiten mejorar el rendimiento y productividad de las mismas; esto se presenta, debido a que automatizan procesos brindando beneficios, entre otros, la reducción de gastos y tiempos de ejecución. La buena planificación, implementación y mantenimiento de una red es vital para la aplicación de tales tecnologías en las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,38 +39,6 @@ export default {
         numero: '1',
         titulo: 'Servicios de red',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Generalidades',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acuerdos de nivel de servicio',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Calidad del servicio',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Conceptos de servicios de redes',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Protocolos y servicios de red',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -79,26 +47,6 @@ export default {
         numero: '2',
         titulo: '<em>Cloud computing</em>        ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipos de servicios',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Modelos de servicios en la nube',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Tipos de nubes',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -106,89 +54,19 @@ export default {
         numero: '3',
         titulo: 'Virtualización',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Componentes',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Herramientas',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Plataforma Azure',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Plataforma Google',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'AWS            ',
-            hash: 't_3_6',
-          },
-        ],
       },
+
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: '<em> Software</em> de virtualización',
+        titulo: 'Contenedores',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Contenedores',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Generalidades',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Características',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: ' Imágenes',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Despliegue y gestión',
-            hash: 't_5_4',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
         titulo:
           'Sistemas de control de versiones, GIT, Integración y entrega continua',
         desarrolloContenidos: true,
@@ -236,20 +114,36 @@ export default {
   },
   complementario: [
     {
-      tema: 'Windows Server 2008: Los Servicios De Red TCP/IP',
+      tema: 'Servicios de red',
       referencia:
-        'Philippe, F. (2010). <em>Windows server 2008: los servicios de red TCP/IP. Ediciones</em> ENI.',
+        'Philippe, F. (2010). <em>Windows server 2008: los servicios de red TCP/IP</em>. Ediciones ENI.',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP',
     },
     {
-      tema: 'Microsoft Azure: Gestione Su Sistema De Información En La Nube',
+      tema: 'Virtualización y <em>software</em> de virtualización',
       referencia:
-        'Philippe, P. (2021). <em> Microsoft Azure: gestione su sistema de información en la nube. Ediciones</em> ENI.',
+        'Philippe, P. (2021). <em>Microsoft Azure: gestione su sistema de información en la nube. Ediciones ENI</em>.',
       tipo: 'Libro PDF',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
+    },
+    {
+      tema: '<em>Cloud Computing</em>',
+      referencia:
+        'Joyanes, L. (2012). Computación en la nube: Estrategias de Cloud Computing en las empresas. Alfaomega Grupo Editor. ',
+      tipo: 'Libro PDF',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061577',
+    },
+    {
+      tema: '<em>Cloud Computing</em>',
+      referencia:
+        'Villarino, J. (2018). <em>La privacidad en el entorno del Cloud Computing</em>. Editorial Reus.',
+      tipo: 'Libro PDF',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB121544',
     },
   ],
   glosario: [
@@ -266,12 +160,12 @@ export default {
     {
       termino: 'HTTP',
       significado:
-        'el protocolo de transferencia de hipertexto es el protocolo de comunicación que permite las transferencias de información a través de archivos en la <em>World Wide Web.</em>',
+        'el protocolo de transferencia de hipertexto, es el protocolo de comunicación que permite las transferencias de información, a través de archivos en la <em>World Wide Web.</em>',
     },
     {
       termino: 'IGP',
       significado:
-        'el <em> Interior Gateway Protocol</em>, es un protocolo de pasarela interna o protocolo de pasarela interior, este hace referencia a los usados dentro de un sistema autónomo.',
+        'el Interior Gateway Protocol, es un protocolo de pasarela interna o protocolo de pasarela interior, este hace referencia a los usados dentro de un sistema autónomo.',
     },
     {
       termino: 'IP',
@@ -281,7 +175,7 @@ export default {
     {
       termino: 'ISNS',
       significado:
-        'el protocolo propuesto del servicio de nombres de almacenamiento de internet permite el descubrimiento, administración y configuración automatizada de dispositivos iSCSI y <em>Fibre Channel</em> en una red TCP / IP.',
+        'el protocolo propuesto del servicio de nombres de almacenamiento de Internet permite el descubrimiento, administración y configuración automatizada de dispositivos iSCSI y Fibre Channel en una red TCP / IP.',
     },
     {
       termino: 'NETBIOS',
@@ -316,47 +210,28 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3GIT',
     },
-    {
-      referencia:
-        'Emprendices. (2014). ¿Qué es Google Cloud Platform?. Emprendices. ',
-      link:
-        'https://lh6.googleusercontent.com/-XhuI4DcK8FM/VFDg50K6AhI/AAAAAAAASxU/fHzSlvPY66M/s750/google-cloud-platform.jpg',
-    },
+
     {
       referencia:
         'Gouigoux, J. (2018). Primeros pasos y puesta en práctica de una arquitectura basada en microservicios. Ediciones ENI. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT2DOC',
     },
-    {
-      referencia:
-        'Interponalos. (2022). Interacción de protocolos de red. Interpolados, como un cuaderno personal.',
-      link: 'https://interpolados.files.wordpress.com/2017/03/14.png',
-    },
+
     {
       referencia:
         'Joyanes, L. (2012). Computación en la nube: Estrategias de Cloud Computing en las empresas. Alfaomega Grupo Editor. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061577',
     },
-    {
-      referencia:
-        'Microsoft. (2022). Implementar calidad de servicio (QoS) en Microsoft Teams. Microsoft. ',
-      link:
-        'https://docs.microsoft.com/es-es/microsoftteams/media/qos-in-teams-image2.png',
-    },
+
     {
       referencia:
         'Linares, K. (2017). Protocolos y aplicaciones de redes pequeñas - CCNA V6.0. Kevin Linares',
       link:
         ' https://3.bp.blogspot.com/-yOSvNtxMKeg/WSJBkZY2c6I/AAAAAAAAD0E/buUO_7iUmWAIz0LhSYuA7rKWXO9cIVWogCLcB/s1600/Protocolos%2Bcomunes.jpg',
     },
-    {
-      referencia:
-        'Lubanski, M. (2019). Sistemas de control de versiones centralizados vs distribuidos. Publicación FAUN. ',
-      link:
-        'http://www.futurefundamentals.com/wp-content/uploads/2018/08/centralized-vcs.png',
-    },
+
     {
       referencia:
         'Philippe, F. (2010). Windows server 2008: los servicios de red TCP/IP. Ediciones ENI. ',
@@ -369,16 +244,7 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
     },
-    {
-      referencia: 'Prozess group. (S.F). Microsoft Azure. Prozess group',
-      link:
-        'http://www.prozessgroup.com/wp-content/uploads/2017/07/AzureNube.jpg',
-    },
-    {
-      referencia:
-        'Ramírez, I. (2016). Máquinas virtuales: qué son, cómo funcionan y cómo utilizarlas. Xalaka. ',
-      link: 'https://i.blogs.es/888d44/vm/1366_2000.jpg',
-    },
+
     {
       referencia:
         'Serrano, J. (2022). AWS, el rentable negocio en la nube de Amazon. Unidad Editorial Revistas, SLU. ',
@@ -387,25 +253,9 @@ export default {
     },
     {
       referencia:
-        'Shutterstock. (S.F). Git repositorios software subversión proceso de servidor de backup en programación y codificación. Shutterstock.',
-      link:
-        'https://image.shutterstock.com/image-vector/git-repositories-software-subversion-backup-600w-626630348.jpg',
-    },
-    {
-      referencia:
         'Villarino, J. (2018). La privacidad en el entorno del Cloud Computing. Editorial ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB121544',
-    },
-    {
-      referencia: 'Wikipedia. (S.F). Amazon Web Services. Wikipedia. ',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png',
-    },
-    {
-      referencia: 'Wikipedia. (S.F). Computación en la nube. Wikipedia. ',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Cloud_computing-es.svg/1200px-Cloud_computing-es.svg.png',
     },
   ],
   creditos: {

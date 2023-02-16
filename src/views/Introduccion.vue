@@ -15,11 +15,17 @@
         .col-lg-8
           .contenedor-dashed.p-4
             .bloque-texto-a__texto.p-4
-              p.mb-0 En la presente temática se revisarán elementos relacionados con de los servicios de red, tipos de servicios, nube, #[em software] de virtualización y sistemas de control de versiones; antes de iniciar es importante revisar el siguiente video para identificar el contexto de aprendizaje:
+              p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán las generalidades y aspectos claves de los servicios de red, tipos de servicios, nube, software de virtualización y sistemas de control de versiones.
+    
+    .row.mt-5
+      p Aprópiese de todos los contenidos que han sido diseñados para su aprendizaje; afiance sus saberes y conviértase en experto en red, virtualización, herramientas, plataformas de despliegues, pruebas de red, entre otros.
+
+      p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+ 
+    
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UJHOEa70wUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5(data-aos='fade-right') Para la elaboración de este componente se abordarán varios autores conocidos en temas relacionados a #[b los servicios de red, virtualización, herramientas, y plataformas de despliegues,] de quienes se toman diversos conceptos para fines educativos de esta competencia.
     
     
 </template>
