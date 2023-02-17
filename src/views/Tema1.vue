@@ -15,7 +15,7 @@
         p.mb-5(data-aos='fade-right') Se puede gestionar la configuración TCP/IP en los equipos clientes de forma automática en el protocolo DHCP con relación al siguiente esquema.
       .col-lg-5.col-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1.
+          h5 Figura 1
           br
           span <em>Servicios de red</em>
         figure
@@ -98,7 +98,7 @@
             | Seguridad
       .col-lg-5.col-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2.
+          h5 Figura 2
           br
           span <em>Calidad del servicio en la red</em>
         img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
@@ -168,7 +168,7 @@
           p.mb-0 Otro protocolo de importancia es el DNS (sistema de nombres de dominio), que se utiliza para convertir el nombre en una dirección IP, este utiliza el puerto 53.
       .col-lg-5.col-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3.
+          h5 Figura 3
           br
           span <em>Protocolos de red</em> 
         img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
