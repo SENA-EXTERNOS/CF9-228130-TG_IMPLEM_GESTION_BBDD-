@@ -40,30 +40,24 @@
               figcaption Nota: Adaptada de SaS (s/f). Weclapp (2021).  
           div(x="23.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 SaaS
-            p #[em Software]  como servicio (SaaS); en este caso, los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como es la (CRM) o gestión de relaciones con clientes, orientación al marketing y análisis empresarial.
+            p <em>Software</em> como servicio (SaaS); en este caso, los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como es la (CRM) o gestión de relaciones con clientes, orientación al <em>marketing</em> y análisis empresarial.
 
-              br
-              br
-              |En este servicio, los usuarios suben al <em>software</em> datos, a cambio de pagar una cuota para el uso de esta información, que se aloja en servidores externos; cuando se hace referencia a un <em>software</em> que está en la nube, se habla de un SaaS.
+            p En este servicio, los usuarios suben al software datos, a cambio de pagar una cuota para el uso de esta información, que se aloja en servidores externos; cuando se hace referencia a un <em>software</em> que está en la nube, se habla de un SaaS.
 
-              br
-              br
-              |Un empleo de SaaS, sería en servicios, como Microsoft Office 365 y CMS, con la plataforma de Office; los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática, que se ejecutan en servidores propios de Microsoft. También se tiene el CMS, que es un <em>software</em> para el diseño de páginas web. (Gouigoux, 2018)
+            p Un empleo de SaaS, sería en servicios, como <em>Microsoft Office</em> 365 y CMS, con la plataforma de <em>Office</em>; los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática, que se ejecutan en servidores propios de <em>Microsoft</em>. También se tiene el CMS, que es un <em>software</em> para el diseño de páginas web. (Gouigoux, 2018)
 
 
           div(x="49.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 PaaS
-            p Plataforma como servicio (PasS) se orientan a componentes como lo son servidores web (SDK), kits de desarrollo de #[em software] y sistemas que gestionan las bases de datos.
-              br
-              br
-              |Este tipo de servicio es fundamental para los desarrolladores que deseen implementar y gestionar sus aplicaciones, ya que no tienen que preocuparse por las capacidades del #[em hardware] y el #[em software] permitiendo el mejoramiento de la eficacia. Esta ofrece plataformas como servicio que pueden lazar bases de datos, herramientas de desarrollo y servicios que contribuyen con la inteligencia empresarial. Un empleo de estas plataformas seria Google App Engine y Bungee Connect.
+            p Plataforma de servicio como PaaS, se orienta a componentes como servidores web (SDK), kits de desarrollo de <em>software</em> y sistemas que gestionan las bases de datos.
+
+            p Este tipo de servicio es fundamental para los desarrolladores que deseen implementar y gestionar sus aplicaciones, porque no tienen que preocuparse por las capacidades del <em>hardware</em> y el <em>software</em>, permitiendo el mejoramiento de la eficacia. Esta ofrece plataformas de servicio que pueden enlazar bases de datos, herramientas de desarrollo y servicios que contribuyen con la inteligencia empresarial. Un empleo de estas plataformas es <em>Google App Engine</em> y <em>Bungee Connect</em>.
+
           div(x="75.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 LaaS
             p Infraestructura como servicio (LaaS), es un centro de datos seguro porque permite acceder a recursos primarios como son la capacidad de almacenamiento de datos, procesamiento y conectividad en la red.
 
-              br
-              br
-              |Cuando se habla de la (LaaS) se hace referencia a estructuras como servicios; las organizaciones hacen contrataciones de infraestructura de hardware a un tercero, a cambio de un pago. En esta, se pueden elegir las características y capacidades del procesador, memoria y capacidad de disco duro, según los requerimientos de la empresa. También se ofrecen máquinas virtuales, sistemas de copia de seguridad y firewall. (Gouigoux, 2018)
+            p Cuando se habla de la (LaaS) se hace referencia a estructuras como servicios; las organizaciones hacen contrataciones de infraestructura de hardware a un tercero, a cambio de un pago. En esta, se pueden elegir las características y capacidades del procesador, memoria y capacidad de disco duro, según los requerimientos de la empresa. También se ofrecen máquinas virtuales, sistemas de copia de seguridad y <em>firewall</em>. (Gouigoux, 2018)
 
 
     .row.mt-5
@@ -100,7 +94,7 @@
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/4.svg', alt='Texto que describa la imagen').mb-3
+              img(src='@/assets/curso/temas/tema2/img5.svg', alt='Texto que describa la imagen').mb-3
 
           .tarjeta.color-acento-botones.p-3.text-black(x="12.5%" y="39%" numero="+")
             h5.mb-2 Nube privada

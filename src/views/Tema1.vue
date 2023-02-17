@@ -8,10 +8,10 @@
       h1 Servicios de red
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red, se hace referencia a aquellos que se basan en una red de trabajo, los cuales son instalados en el firewall del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas ayudando a que la red funcione eficazmente. (Philippe, 2010)
+        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red, se hace referencia a aquellos que se basan en una red de trabajo, los cuales son instalados en el <em>firewall</em> del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas ayudando a que la red funcione eficazmente. (Philippe, 2010)
 
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da")
-          p.mb-0 La arquitectura de los servicios de red es fundamentalmente la de cliente-servidor y en algunos de estos servicios de red el cliente puede configurar de forma automática la gestión del servicio. Dentro del servicio de red más utilizado está el de; (DHCP) Protocolo de Configuración Dinámica de Host. Este es un estándar diseñado para reducir la carga administrativa y la complejidad de la configuración de <em>hosts</em> en un Protocolo de Control de Transmisión / Protocolo de Internet (TCP/IP) basado en red.
+          p.mb-0 La arquitectura de los servicios de red es fundamentalmente la de cliente-servidor y en algunos de estos servicios de red el cliente puede configurar de forma automática la gestión del servicio. Dentro del servicio de red más utilizado está el de; (DHCP) Protocolo de Configuración Dinámica de <em>Host</em>. Este es un estándar diseñado para reducir la carga administrativa y la complejidad de la configuración de <em>hosts</em> en un Protocolo de Control de Transmisión / Protocolo de Internet (TCP/IP) basado en red.
         p.mb-5(data-aos='fade-right') Se puede gestionar la configuración TCP/IP en los equipos clientes de forma automática en el protocolo DHCP con relación al siguiente esquema.
       .col-lg-5.col-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -176,7 +176,7 @@
       .col-lg-2.col-8(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/11.jpg', alt='')
       .col-lg-10(data-aos="fade-left")
-        p Ahora bien, con relación a los servicios de red, se resalta que estos facilitan la conexión entre dos o más ordenadores, dando como finalidad compartir recursos tanto en el <em>software</em> o en el hardware; es por esto, por lo que podemos compartir impresoras o programas en una red, así como también los servicios de red garantizan una mejor seguridad de la información.
+        p Ahora bien, con relación a los servicios de red, se resalta que estos facilitan la conexión entre dos o más ordenadores, dando como finalidad compartir recursos tanto en el <em>software</em> o en el <em>hardware</em>; es por esto, por lo que podemos compartir impresoras o programas en una red, así como también los servicios de red garantizan una mejor seguridad de la información.
 
         p <b>Un ejemplo más conciso</b>  
 

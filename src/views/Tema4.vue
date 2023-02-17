@@ -36,10 +36,10 @@
       )
       .contenedor-dashed.p-3.position-relative.d-flex.justify-content-end.w-60
         .bloque-texto-g__texto.p-4.w-100
-          p.mb-0 Al utilizar contenedores, los clientes evitan que se produzcan problemas de incompatibilidad o bloqueos; esto hace que mejore el rendimiento de todos los equipos. Por esta razón, los desarrolladores se pueden enfocar en la aplicación y sin sistemas operativos. Los contenedores ofrecen un óptimo despliegue en clústers, al dividir los componentes en contenedores; los desarrolladores también pueden actualizar individualmente, en vez de reprocesar toda la aplicación.
+          p.mb-0 Al utilizar contenedores, los clientes evitan que se produzcan problemas de incompatibilidad o bloqueos; esto hace que mejore el rendimiento de todos los equipos. Por esta razón, los desarrolladores se pueden enfocar en la aplicación y sin sistemas operativos. Los contenedores ofrecen un óptimo despliegue en <em>clústers</em>, al dividir los componentes en contenedores; los desarrolladores también pueden actualizar individualmente, en vez de reprocesar toda la aplicación.
             br
             br
-            |Ahora bien, con relación a la diferencia entre las máquinas virtuales y los contenedores, se puede decir que las máquinas virtuales emulan el hardware para que se pueda ejecutar en varias instancias, en un mismo sistema operativo. Otra de las ventajas es que se pueden ejecutar diferentes sistemas operativos en un mismo servidor. Ahora bien, un contenedor virtualiza el sistema operativo y hace que la aplicación en el contenedor, crea que tiene el sistema operativo; este se puede ejecutar desde cualquier lugar y para esto no se necesita arrancar un sistema operativo ni cargar bibliotecas. (Gouigoux, 2018)
+            |Ahora bien, con relación a la diferencia entre las máquinas virtuales y los contenedores, se puede decir que las máquinas virtuales emulan el <em>hardware</em> para que se pueda ejecutar en varias instancias, en un mismo sistema operativo. Otra de las ventajas es que se pueden ejecutar diferentes sistemas operativos en un mismo servidor. Ahora bien, un contenedor virtualiza el sistema operativo y hace que la aplicación en el contenedor, crea que tiene el sistema operativo; este se puede ejecutar desde cualquier lugar y para esto no se necesita arrancar un sistema operativo ni cargar bibliotecas. (Gouigoux, 2018)
 
     .row.mt-5
       ul.lista-ul--color
@@ -76,7 +76,7 @@
               li
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 5
-                p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos web, se garantiza que las máquinas no usen su hardware y <em>software</em>, porque se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de hardware, según los requerimientos determinados por el cliente.
+                p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos web, se garantiza que las máquinas no usen su <em>hardware</em> y <em>software</em>, porque se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de <em>hardware</em>, según los requerimientos determinados por el cliente.
 
           .cajon-b.color-primario.p-3.pt-0.mb-5.abajo-derecha
             ol.lista-ol--cuadro
@@ -105,7 +105,7 @@
         div(style="background-color: #00defc").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
-              p.mb-0 Una imagen en contenedores es un archivo (file) que está compuesto por varias capas y se utiliza para ejecutar un código dentro de un contenedor. Contiene un sistema de ficheros para un óptimo funcionamiento, de manera que estas imágenes actúan como un conjunto de instrucciones para la construcción de un contenedor, así como lo hace una plantilla.
+              p.mb-0 Una imagen en contenedores es un archivo (<em>file</em>) que está compuesto por varias capas y se utiliza para ejecutar un código dentro de un contenedor. Contiene un sistema de ficheros para un óptimo funcionamiento, de manera que estas imágenes actúan como un conjunto de instrucciones para la construcción de un contenedor, así como lo hace una plantilla.
 
                 br
                 br
@@ -175,9 +175,9 @@
               br
               |-p 8080
           div(titulo="- -privileged")
-            p Sirve para darle permisos al contenedor, como si fuera el localhost.
+            p Sirve para darle permisos al contenedor, como si fuera el <em>localhost</em>.
           div(titulo="-v")
-            p Permite compartir directorios en el contenedor, tener la aplicación en el localhost y compartirla al contenedor.
+            p Permite compartir directorios en el contenedor, tener la aplicación en el <em>localhost</em> y compartirla al contenedor.
           div(titulo="- -link ")
             p Esto enlaza un contenedor a otro.
 
@@ -203,11 +203,7 @@
                     span Descargar 
                     i.fas.fa-file-download
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/sKAKbpdS7Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
-
+ 
 
 </template>
 

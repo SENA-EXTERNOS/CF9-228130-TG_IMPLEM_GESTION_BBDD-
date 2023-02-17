@@ -8,30 +8,25 @@
       h1 Virtualización
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p Esta es una tecnología que permite, mediante los servicios TI, crear otros servicios; distribuye las funciones del hardware entre varios usuarios o entornos, posibilitando el uso de la totalidad de la máquina; dichos recursos se dividen según las necesidades.
+        p Esta es una tecnología que permite, mediante los servicios TI, crear otros servicios; distribuye las funciones del <em>hardware</em> entre varios usuarios o entornos, posibilitando el uso de la totalidad de la máquina; dichos recursos se dividen según las necesidades.
 
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #d9faff")
           p.mb-0 Debido a las limitaciones de los servidores con arquitectura x86, muchas empresas del sector TI, se ven obligadas a implementar múltiples servidores que funcionan por debajo de su capacitad y rendimiento; esta situación genera ineficiencia y costos operativos excesivos.
 
-        p Por ello, la virtualización utiliza el <em>software</em> para imitar todas las características que posee el hardware y crear un sistema informático virtual; esto permite a las empresas, la ejecución de múltiples sistemas operativos y aplicaciones en un solo servidor, mejorando temas de rendimiento, economía y mejoramiento de la eficiencia. (Joyanes, 2012)
+        p Por ello, la virtualización utiliza el <em>software</em> para imitar todas las características que posee el <em>hardware</em> y crear un sistema informático virtual; esto permite a las empresas, la ejecución de múltiples sistemas operativos y aplicaciones en un solo servidor, mejorando temas de rendimiento, economía y mejoramiento de la eficiencia. (Joyanes, 2012)
 
-        p La virtualización en red, permite ejecutar las aplicaciones en una red virtual del mismo modo que en una red física y ofrece mejores ventajas con toda la independencia del hardware en la virtualización. También permite mostrar dispositivos y servicios de red, de manera lógica, como los puertos lógicos, conmutadores, <em>firewall</em>, VPN, etc.
+        p La virtualización en red, permite ejecutar las aplicaciones en una red virtual del mismo modo que en una red física y ofrece mejores ventajas con toda la independencia del <em>hardware</em> en la virtualización. También permite mostrar dispositivos y servicios de red, de manera lógica, como los puertos lógicos, conmutadores, <em>firewall</em>, VPN, etc.
 
 
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/1.svg', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="zoom-in")
-        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da")
-          p.mb-0 En la virtualización también son múltiples los entornos simulados, estos se gestionan por un #[em software] llamado hipervisor, que permite establecer una conexión al #[em hardware] permitiendo dividir un sistema en varios entornos, a estos se les conoce como máquinas virtuales (VM). Entre sus ventajas está el que los administradores puedan agrupar y organizar mejor los recursos físicos. (Joyanes, 2012)
-    
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
             i.fas.fa-square
             h3 Tipos de virtualización
 
-      p En la virtualización, también son múltiples los entornos simulados; estos se gestionan por un software llamado hipervisor, que permite establecer una conexión al hardware, permitiendo dividir un sistema en varios entornos; a estos se les conoce como máquinas virtuales (VM). Entre sus ventajas está, el que los administradores puedan agrupar y organizar mejor los recursos físicos. (Joyanes, 2012)
+      p En la virtualización, también son múltiples los entornos simulados; estos se gestionan por un software llamado hipervisor, que permite establecer una conexión al <em>hardware</em>, permitiendo dividir un sistema en varios entornos; a estos se les conoce como máquinas virtuales (VM). Entre sus ventajas está, el que los administradores puedan agrupar y organizar mejor los recursos físicos. (Joyanes, 2012)
 
       p A continuación, conozca algunos tipos de virtualización y sus generalidades:
 
@@ -99,7 +94,7 @@
             p.mb-0 #[b Capa de virtualización:] se llama hipervisor o monitor de máquina virtual y permite usar, al mismo tiempo, diferentes sistemas operativos en una misma máquina.
           li
             i.fas.fa-check.fa-xs
-            p.mb-0 #[b Máquinas virtuales:] es un entorno virtual que dispone el hardware, formado, a su vez, por un sistema operativo. Se ejecutan como cualquier proceso del sistema operativo, realizando una interpretación de enlace entre la fuente y el código máquina. 
+            p.mb-0 #[b Máquinas virtuales:] es un entorno virtual que dispone el <em>hardware</em>, formado, a su vez, por un sistema operativo. Se ejecutan como cualquier proceso del sistema operativo, realizando una interpretación de enlace entre la fuente y el código máquina. 
     
     .row.mt-5
       ul.lista-ul--color
@@ -173,18 +168,18 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Servicios de infraestructura: la nube híbrida de <em>Microsoft</em>, permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
+                  p.mb-0 <b>Servicios de infraestructura:</b> la nube híbrida de <em>Microsoft</em>, permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Desarrollo de aplicaciones modernas: permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático, se tienen <em>App Service Web</em> y movilidad multimedia.
+                  p.mb-0 <b>Desarrollo de aplicaciones modernas:</b> permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático, se tienen <em>App Service Web</em> y movilidad multimedia.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Información basada en datos: se puede extraer información de todos los datos. Estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
+                  p.mb-0 <b>Información basada en datos:</b> se puede extraer información de todos los datos. Estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Administración de identidad: #[em Active directory] es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
+                  p.mb-0 <b>Administración de identidad:</b> #[em Active directory] es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
@@ -203,7 +198,7 @@
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Resiliencia en la nube:  una de las ventajas en la nube es bajar los costos con el uso de un hardware optimizado. Anteriormente, las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
+                  p.mb-0 Resiliencia en la nube:  una de las ventajas en la nube es bajar los costos con el uso de un <em>hardware</em> optimizado. Anteriormente, las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
 
                 li
                   i.fas.fa-check.fa-xs
@@ -232,9 +227,9 @@
         .cajon-b.color-secundario.p-3.mb-2
           p Todos los recursos que se asignan y usan deben pertenecer a un proyecto; los proyectos están compuestos por la configuración, permisos y metadatos, para describir aplicaciones. Cada proyecto debe contener las siguientes características: nombre del proyecto, ID y un número de proyecto.
 
-          p Para estos casos, la consola proporciona una interfaz gráfica orientada en la web, en donde se pueden administrar los proyectos y recursos de Google Cloud; también se pueden crear varios proyectos y usarlos para separar el trabajo de una mejor manera. Villarino (2018)
+          p Para estos casos, la consola proporciona una interfaz gráfica orientada en la web, en donde se pueden administrar los proyectos y recursos de <em>Google Cloud</em>; también se pueden crear varios proyectos y usarlos para separar el trabajo de una mejor manera. Villarino (2018)
  
-          p Entre la lista de funciones que Google Cloud ofrece, se encuentran más de 100 productos y servicios, dando solución a problemas empresariales como: máquinas virtuales, alojamiento web, almacenamiento de archivos, VPS, creación de aplicaciones, herramientas de gestión, etc.
+          p Entre la lista de funciones que <em>Google Cloud</em> ofrece, se encuentran más de 100 productos y servicios, dando solución a problemas empresariales como: máquinas virtuales, alojamiento web, almacenamiento de archivos, VPS, creación de aplicaciones, herramientas de gestión, etc.
 
       .col-lg-5.col-8(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
@@ -295,13 +290,15 @@
       .cajon-b.color-secundario.p-3.mb-5
         p Esta es una de las plataformas más populares en la nube. Ofrece gran variedad de servicios integrales: cómputo, almacenamientos y bases de datos, lo que hace que las aplicaciones en la nube sean mucho más rápidas, rentables y fáciles de usar.
 
-        p Se puede decir que Amazon Web Services, es un paquete de servicios web que forman una plataforma de computación en la nube; es usado en aplicaciones famosas como Dropbox, Hootsuite y compite directamente con Azure, Google Cloud e IBM Cloud.
+        p Se puede decir que Amazon Web Services, es un paquete de servicios web que forman una plataforma de computación en la nube; es usado en aplicaciones famosas como Dropbox, Hootsuite y compite directamente con Azure, <em>Google Cloud</em> e IBM Cloud.
 
         p.mb-0 AWS fue lanzado en el año 2006, ofreciendo servicios para sitios web. La mayoría de estos servicios no están expuestos a los usuarios finales. A ella se ingresa a través del protocolo HTTP (Serrano, 2022).
 
       .cajon-b.color-secundario.p-3.mb-5.abajo-derecha
         p.mb-0 En el año 2020, AWS hizo convenios con la empresa colombiana SENA, para formar profesionales en tecnologías como: ciencias de datos, inteligencia artificial y <em>Cloud Computing</em>, con lo que se espera formar a más de 150.000 colombianos.
 
+    .row.mt-3
+      p Amazon Web Service ofrece herramientas como las siguientes:
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right")
@@ -328,8 +325,6 @@
             p Gestión de códigos, implementación y publicación del #[em software.]
           div(titulo="Seguridad y control de acceso")
             p Nos permite autenticar en varios pasos para así poder acceder a sistemas internos. 
-              br
-              | (Serrano, 2022)
 
 
     .row.mt-5
@@ -378,7 +373,7 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="<em>VirtualBox</em>")
-            p Entre las diferentes bases de datos que ofrece el servicio AWS están MysQL, posgreSQL, Oracle, SQL server, Amazon Aurora.
+            p Considerado como el mejor <em>software</em> para la virtualización porque está disponible en forma libre, es muy sencillo y versátil y cuenta con funcionalidades para ejecutar la máquina virtual en pantalla completa.
           div(titulo="<em>Citrix XenServer</em>")
             p Se ha destacado como uno de los mejores ya que integra tecnología Xen, que proporciona entornos administrables seguros y fiables.
           div(titulo="<em>Vmware Workstation</em>")
@@ -388,7 +383,7 @@
           div(titulo="<em>Cameyo</em>")
             p Permite ejecutar un programa virtual dentro de un paquete virtualizado; es la solución ideal para convertir programas normales a portables.
           div(titulo="<em>Xen hypervisor</em>")
-            p Es una herramienta <em>open</em> source empleada por empresas de todos los tamaños.
+            p Es una herramienta <em>open source</em> empleada por empresas de todos los tamaños.
           div(titulo="<em>Parallels</em>")
             p Está diseñado para sistemas operativos IOS, su principal ventaja es la capacidad de ejecutar otros sistemas operativos de la marca Apple.
           div(titulo="<em>QEMU</em>")
