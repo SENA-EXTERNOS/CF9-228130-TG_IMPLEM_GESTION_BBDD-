@@ -42,16 +42,16 @@
             h4.mb-2 SaaS
             p <em>Software</em> como servicio (SaaS); en este caso, los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como es la (CRM) o gestión de relaciones con clientes, orientación al <em>marketing</em> y análisis empresarial.
 
-            p En este servicio, los usuarios suben al software datos, a cambio de pagar una cuota para el uso de esta información, que se aloja en servidores externos; cuando se hace referencia a un <em>software</em> que está en la nube, se habla de un SaaS.
+            p En este servicio, los usuarios suben al <em>software</em> datos, a cambio de pagar una cuota para el uso de esta información, que se aloja en servidores externos; cuando se hace referencia a un <em>software</em> que está en la nube, se habla de un SaaS.
 
-            p Un empleo de SaaS, sería en servicios, como <em>Microsoft Office</em> 365 y CMS, con la plataforma de <em>Office</em>; los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática, que se ejecutan en servidores propios de <em>Microsoft</em>. También se tiene el CMS, que es un <em>software</em> para el diseño de páginas web. (Gouigoux, 2018)
+            p Un empleo de SaaS, sería en servicios, como Microsoft Office 365 y CMS, con la plataforma de Office; los usuarios pueden trabajar desde cualquier parte del mundo y acceder a herramientas de ofimática, que se ejecutan en servidores propios de <em>Microsoft</em>. También se tiene el CMS, que es un <em>software</em> para el diseño de páginas web. (Gouigoux, 2018)
 
 
           div(x="49.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 PaaS
-            p Plataforma de servicio como PaaS, se orienta a componentes como servidores web (SDK), kits de desarrollo de <em>software</em> y sistemas que gestionan las bases de datos.
+            p Plataforma de servicio como (Paas), se orienta a componentes como servidores web (SDK), kits de desarrollo de <em>software</em> y sistemas que gestionan las bases de datos.
 
-            p Este tipo de servicio es fundamental para los desarrolladores que deseen implementar y gestionar sus aplicaciones, porque no tienen que preocuparse por las capacidades del <em>hardware</em> y el <em>software</em>, permitiendo el mejoramiento de la eficacia. Esta ofrece plataformas de servicio que pueden enlazar bases de datos, herramientas de desarrollo y servicios que contribuyen con la inteligencia empresarial. Un empleo de estas plataformas es <em>Google App Engine</em> y <em>Bungee Connect</em>.
+            p Este tipo de servicio es fundamental para los desarrolladores que deseen implementar y gestionar sus aplicaciones, porque no tienen que preocuparse por las capacidades del <em>hardware</em> y el <em>software</em>, permitiendo el mejoramiento de la eficacia. Esta ofrece plataformas de servicio que pueden lanzar bases de datos, herramientas de desarrollo y servicios que contribuyen con la inteligencia empresarial. Un empleo de estas plataformas sería <em>Google App Engine</em> y <em>Bungee Connect</em>.
 
           div(x="75.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
             h4.mb-2 LaaS
@@ -98,7 +98,7 @@
 
           .tarjeta.color-acento-botones.p-3.text-black(x="12.5%" y="39%" numero="+")
             h5.mb-2 Nube privada
-            p.mb-0 Este tipo de nube permite ampliar el servicio Esta es una red que está protegida brindando servicios de administración con limitaciones a personas. Normalmente, son empresas grandes y entidades que se caracterizan por este tipo de almacenamiento. los requerimientos y necesidades del usuario.
+            p.mb-0 Esta es una red que está protegida brindando servicios de administración con limitaciones a personas. Normalmente, son empresas grandes y entidades que se caracterizan por este tipo de almacenamiento.
 
           .tarjeta.color-acento-botones.p-3.text-black(x="50%" y="39%" numero="+")
             h5.mb-2 Nube híbrida

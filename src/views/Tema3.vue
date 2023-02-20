@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Virtualización
+      h1 Virtualización y <em>software</em> de virtualización
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p Esta es una tecnología que permite, mediante los servicios TI, crear otros servicios; distribuye las funciones del <em>hardware</em> entre varios usuarios o entornos, posibilitando el uso de la totalidad de la máquina; dichos recursos se dividen según las necesidades.
@@ -190,22 +190,22 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Desarrollo y operación a través del trabajo colaborativo: con una cultura en el desarrollo, implementación, administración de aplicaciones en la nube, el equipo TI tiene la ventaja de aumentar su productividad.
+                  p.mb-0 <strong>Desarrollo y operación a través del trabajo colaborativo:</strong> con una cultura en el desarrollo, implementación, administración de aplicaciones en la nube, el equipo TI tiene la ventaja de aumentar su productividad.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Seguridad en la nube: uno de los temas más interesantes en las empresas, es la migración de la información en sistemas locales al entorno de la nube.
+                  p.mb-0 <strong>Seguridad en la nube:</strong> uno de los temas más interesantes en las empresas, es la migración de la información en sistemas locales al entorno de la nube.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Resiliencia en la nube:  una de las ventajas en la nube es bajar los costos con el uso de un <em>hardware</em> optimizado. Anteriormente, las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
+                  p.mb-0 <strong>Resiliencia en la nube:</strong>  una de las ventajas en la nube es bajar los costos con el uso de un <em>hardware</em> optimizado. Anteriormente, las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Análisis de los datos: la plataforma de <em>Microsoft Azure</em>, ofrece herramientas para ordenar los algoritmos y categorías de la información recopilada.
+                  p.mb-0 <strong>Análisis de los datos:</strong> la plataforma de <em>Microsoft Azure</em>, ofrece herramientas para ordenar los algoritmos y categorías de la información recopilada.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 Inteligencia artificial: la plataforma revoluciona la forma en que se organizan la información y los recursos TI; además, permite desarrollar una cultura de cooperación, basada en el aprendizaje, optimización y pruebas. (Philippe, 2021)
+                  p.mb-0 <strong>Inteligencia artificial:</strong> la plataforma revoluciona la forma en que se organizan la información y los recursos TI; además, permite desarrollar una cultura de cooperación, basada en el aprendizaje, optimización y pruebas. (Philippe, 2021)
 
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/11.svg', alt='')
     

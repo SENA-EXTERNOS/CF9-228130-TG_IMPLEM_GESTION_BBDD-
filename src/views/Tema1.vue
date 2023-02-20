@@ -154,7 +154,7 @@
             h3 Protocolos y servicios de red
 
     .cajon-b.color-secundario.p-3.mb-5
-      p.mb-0 Los protocolos se definen como un conjunto de reglas permanentes en la red; estos protocolos son estándares y tienen políticas que definen la comunicación entre dos o más equipos en la red; estas políticas aseguran la comunicación de extremo a extremo y también los protocolos que deben ser instalados por el emisor y receptor, para dar garantía a la comunicación de la red. (Philippe, 2010).
+      p.mb-0 Los protocolos se definen como un conjunto de reglas permanentes en la red; estos protocolos son estándares y tienen políticas que definen la comunicación entre dos o más equipos en la red; estas políticas aseguran la comunicación de extremo a extremo y también los protocolos que deben ser instalados por el emisor y receptor, para dar garantía a la comunicación de la red. (Philippe, 2010)
       br
       p Ahora bien, cuando se hace referencia a una pila de protocolos, se está hablando del conjunto completo de capas que trabajan entre sí, para brindar capacidades de red. 
 

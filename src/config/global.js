@@ -52,7 +52,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Virtualización',
+        titulo: 'Virtualización y <em>software</em> de virtualización',
         desarrolloContenidos: true,
       },
 
