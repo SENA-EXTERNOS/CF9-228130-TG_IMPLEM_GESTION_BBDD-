@@ -160,7 +160,7 @@ export default {
     {
       termino: 'HTTP',
       significado:
-        'el protocolo de transferencia de hipertexto, es el protocolo de comunicación que permite las transferencias de información, a través de archivos en la <em>World Wide Web.</em>',
+        'el protocolo de transferencia de hipertexto, es el protocolo de comunicación que permite las transferencias de información, a través de archivos en la World Wide Web.',
     },
     {
       termino: 'IGP',
