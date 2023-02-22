@@ -19,7 +19,7 @@
                   |Los contenedores se pueden definir como un mecanismo emergente, que utiliza medios de pruebas de aplicaciones; estos se utilizan en computadores domésticos y de igual manera ofrecen soluciones de red empresariales utilizando la web. Se puede asimilar un contenedor con una máquina virtual ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios y sistemas de archivos. (Gouigoux, 2018)
                   br
                   br
-                  |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del host, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios. 
+                  |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del <em>host</em>, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios. 
                   
           .col-lg-4.mb-4.mb-lg-0.p-4
             img(src='@/assets/curso/temas/tema5/1.svg', alt='')

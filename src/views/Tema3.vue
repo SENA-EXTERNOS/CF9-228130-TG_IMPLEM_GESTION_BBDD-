@@ -126,7 +126,7 @@
                   p.mb-0 <em>KVM</em>.
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0.fst-italic <em>Parallels Desktop for Mac</em>.
+                  p.mb-0 Parallels Desktop para Mac.
                 li
                   i.fas.fa-check.fa-xs
                   p.mb-0 <em>VMware Fusion Pro</em>.
@@ -168,18 +168,18 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 <b>Servicios de infraestructura:</b> la nube híbrida de <em>Microsoft</em>, permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
+                  p.mb-0 <b>Servicios de infraestructura:</b> la nube híbrida de Microsoft, permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 <b>Desarrollo de aplicaciones modernas:</b> permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático, se tienen <em>App Service Web</em> y movilidad multimedia.
+                  p.mb-0 <b>Desarrollo de aplicaciones modernas:</b> permite crear variedad de aplicaciones como soluciones web, móviles y de línea de negocios; en las características de escalado automático, se tienen App Service Web y movilidad multimedia.
                 li
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Información basada en datos:</b> se puede extraer información de todos los datos. Estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
 
                 li
                   i.fas.fa-check.fa-xs
-                  p.mb-0 <b>Administración de identidad:</b> #[em Active directory] es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
+                  p.mb-0 <b>Administración de identidad:</b>  Active Directory es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
