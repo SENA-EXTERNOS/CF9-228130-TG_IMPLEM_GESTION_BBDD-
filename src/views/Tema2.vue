@@ -54,8 +54,8 @@
 
 
           div(x="75.5%" y="13%" tooltip="tooltip de max 35 caracteres" numero="+")
-            h4.mb-2 LaaS
-            p Infraestructura como servicio (IaaS), este es un centro de datos seguro ya que permiten acceder a recursos primarios como lo son la capacidad de almacenamiento de datos, procesamiento y conectividad en la red.
+            h4.mb-2 laaS
+            p Infraestructura como servicio (laaS), este es un centro de datos seguro ya que permiten acceder a recursos primarios como lo son la capacidad de almacenamiento de datos, procesamiento y conectividad en la red.
             p Cuando se habla de la laaS se hace referencia a estructuras como servicios; las organizaciones hacen contrataciones de infraestructura de <em>hardware</em> a un tercero a cambio de un pago, en esta se pueden elegir las características y capacidades en el procesador, memoria y capacidad de disco duro según los requerimientos de la empresa. También se ofrecen máquinas virtuales, sistemas de copia de seguridad y <em>firewall</em>. (Gouigoux, 2018)
 
 
