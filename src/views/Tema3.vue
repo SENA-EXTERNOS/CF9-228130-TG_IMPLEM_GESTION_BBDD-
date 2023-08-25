@@ -87,7 +87,7 @@
         ul.lista-ul--color
           li
             i.fas.fa-check.fa-xs
-            p.mb-0 #[b #[em Hardware] de la maquina:] este aportará los recursos que se utilizarán y será el actor al que se le aplicarán las técnicas de virtualización.
+            p.mb-0 #[b #[em Hardware] de la máquina:] este aportará los recursos que se utilizarán y será el actor al que se le aplicarán las técnicas de virtualización.
 
           li
             i.fas.fa-check.fa-xs
@@ -150,7 +150,7 @@
               .col-lg-8
                 .contenedor-dashed.p-4
                   .bloque-texto-a__texto.p-4
-                    p.mb-0 Es una plataforma en la nube desarrollada por la compañía de Microsoft donde es publica y paga, esta te permite compilar, implementar y administrar aplicaciones en centros de datos, nos ofrecen servicios en infraestructuras como lo son almacenamientos, redes, máquinas virtuales y plataformas tales como SQL, CMS, #[em backened] para aplicaciones móviles. (Philippe, 2021)
+                    p.mb-0 Es una plataforma en la nube desarrollada por la compañía de Microsoft donde es pública y paga, esta te permite compilar, implementar y administrar aplicaciones en centros de datos, nos ofrecen servicios en infraestructuras como lo son almacenamientos, redes, máquinas virtuales y plataformas tales como SQL, CMS, #[em backened] para aplicaciones móviles. (Philippe, 2021)
               .col-lg-4.mb-4.mb-lg-0.p-4
                 img(src='@/assets/curso/temas/tema3/9.svg', alt='')
     .titulo-square.d-flex.align-items-center(data-aos="fade-right").mb-5
@@ -159,8 +159,7 @@
     p.mb-5(data-aos='fade-right') Este servicio funciona con una gran variedad de sistemas operativos, lenguajes de programación y herramientas para el desarrollo. Además, cuenta con todas las tecnologías necesarias para el desarrollo de aplicaciones.
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/10.svg', alt='')
-      .col-lg-8(data-aos="fade-left")
+      .col-lg-10(data-aos="fade-left")
         div(style="background-color: #00defc").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
@@ -375,7 +374,7 @@
           div(titulo="<em>VirtualBox</em>")
             p Considerado como el mejor <em>software</em> para la virtualización porque está disponible en forma libre, es muy sencillo y versátil y cuenta con funcionalidades para ejecutar la máquina virtual en pantalla completa.
           div(titulo="<em>Citrix XenServer</em>")
-            p Se ha destacado como uno de los mejores ya que integra tecnología Xen, que proporciona entornos administrables seguros y fiables.
+            p Se ha destacado como uno de los mejores, ya que integra tecnología Xen, que proporciona entornos administrables seguros y fiables.
           div(titulo="<em>Vmware Workstation</em>")
             p Permite crear múltiples máquinas virtuales y un <em>software</em> muy robusto en cuanto a compatibilidad y rendimiento.
           div(titulo="<em>Sandboxie </em>")

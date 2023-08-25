@@ -16,7 +16,7 @@
 
                   br
                   br
-                  |Los contenedores se pueden definir como un mecanismo emergente, que utiliza medios de pruebas de aplicaciones; estos se utilizan en computadores domésticos y de igual manera ofrecen soluciones de red empresariales utilizando la web. Se puede asimilar un contenedor con una máquina virtual ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios y sistemas de archivos. (Gouigoux, 2018)
+                  |Los contenedores se pueden definir como un mecanismo emergente, que utiliza medios de pruebas de aplicaciones; estos se utilizan en computadores domésticos y de igual manera ofrecen soluciones de red empresariales utilizando la web. Se puede asimilar un contenedor con una máquina virtual, ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios y sistemas de archivos. (Gouigoux, 2018)
                   br
                   br
                   |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del <em>host</em>, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios. 
@@ -116,7 +116,7 @@
         div(style="background-color: #ffb30b").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
-              p.mb-0 Ahora bien, cuando se habla de capas se hace referencia a las imágenes que están hechas de capas ordenadas; se puede decir que una capa es un conjunto de cambios en el sistema de archivos. Cuando se toman todas las capas y se apilan, se obtiene una nueva imagen que contiene cambios; esto quiere decir que, cada vez que se crea una capa, hay que tener en cuenta el orden y, también, qué va a contener cada una de ellas; por ejemplo, si en una capa se crea un archivo y en la siguiente capa se elimina, y en la otra se hace uso del mismo, esto generaría un error. Es por esto por lo que se debe tener en cuenta qué capa se está ejecutando en el programa.
+              p.mb-0 Ahora bien, cuando se habla de capas, se hace referencia a las imágenes que están hechas de capas ordenadas; se puede decir que una capa es un conjunto de cambios en el sistema de archivos. Cuando se toman todas las capas y se apilan, se obtiene una nueva imagen que contiene cambios; esto quiere decir que, cada vez que se crea una capa, hay que tener en cuenta el orden y, también, qué va a contener cada una de ellas; por ejemplo, si en una capa se crea un archivo y en la siguiente capa se elimina, y en la otra se hace uso del mismo, esto generaría un error. Es por esto por lo que se debe tener en cuenta qué capa se está ejecutando en el programa.
 
                 br
                 br
@@ -159,7 +159,7 @@
               br
               |Este comando identifica que se va a alanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
           div(titulo="- -rm")
-            p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo este en el contenedor y ejecutar algo dentro.
+            p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo esté en el contenedor y ejecutar algo dentro.
           div(titulo="- -name")
             p Se utiliza para darle un nombre o identificación a nuestro contenedor.
           div(titulo="-d")

@@ -8,7 +8,7 @@
       h1 Servicios de red
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red, se hace referencia a aquellos que se basan en una red de trabajo, los cuales son instalados en el <em>firewall</em> del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas ayudando a que la red funcione eficazmente. (Philippe, 2010)
+        p.mb-4(data-aos='fade-right') Cuando se habla de servicios de red, se hace referencia a aquellos que se basan en una red de trabajo, los cuales son instalados en el <em>firewall</em> del servidor. Estos servicios son configurables, para así mantener la transmisión de los datos y su seguridad, brindando ayuda en la simplificación de muchos procesos y problemas, ayudando a que la red funcione eficazmente. (Philippe, 2010)
 
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da")
           p.mb-0 La arquitectura de los servicios de red es fundamentalmente la de cliente-servidor y en algunos de estos servicios de red el cliente puede configurar de forma automática la gestión del servicio. Dentro del servicio de red más utilizado está el de; (DHCP) Protocolo de Configuración Dinámica de <em>Host</em>. Este es un estándar diseñado para reducir la carga administrativa y la complejidad de la configuración de <em>hosts</em> en un Protocolo de Control de Transmisión / Protocolo de Internet (TCP/IP) basado en red.
@@ -71,8 +71,8 @@
       .col-lg-7(data-aos="fade-left") 
         p Es importante que en todo servicio se elabore un documento o contrato que contemple los acuerdos y condiciones que deben cumplir el proveedor y el cliente; a esto se le llama acuerdo del nivel de servicio #[em Service level agreement], (SLA), el cual es importante para garantizar que el servicio prestado se cumpla entre ambas partes. En el área TIC se les llama SLA con este el proveedor se compromete con el cumplimiento de los requerimientos del cliente; estos servicios se organizan por niveles o métricas que indican un rango.
         .cajon.color-primario.p-4.mb-4(style="background-color: #dae4ef")
-          p.mb-0 ¿Ahora bien, porque son importantes los SLA?, los proveedores que suministran servicios necesitan de los acuerdos de nivel de servicio para ayudar administrar las expectativas de los clientes y mirar las circunstancias en las que no son responsables de la calidad del servicio; también hay un beneficio por parte de los clientes ya que estos describen las características en el rendimiento del servicio.
-        p Los SLA entonces ayudan a gestionar los problemas del servicio, estos se incorporan generalmente en un contrato de servicio del proveedor; ahora bien, ¿qué conteniente un SLA?, estos generalmente tienen declarados los objetivos y una lista de servicios que están cubiertos por el acuerdo, este definirá las responsabilidades del mismo. El SLA incluye las exclusiones explicando las situaciones en que las garantías no se aplican, este puede ser eventos como actos terroristas o desastres causados por la naturaleza.
+          p.mb-0 ¿Ahora bien, porque son importantes los SLA?, los proveedores que suministran servicios necesitan de los acuerdos de nivel de servicio para ayudar a administrar las expectativas de los clientes y mirar las circunstancias en las que no son responsables de la calidad del servicio; también hay un beneficio por parte de los clientes, ya que estos describen las características en el rendimiento del servicio.
+        p Los SLA entonces ayudan a gestionar los problemas del servicio, estos se incorporan generalmente en un contrato de servicio del proveedor; ahora bien, ¿qué contiene un SLA?, estos generalmente tienen declarados los objetivos y una lista de servicios que están cubiertos por el acuerdo, este definirá las responsabilidades del mismo. El SLA incluye las exclusiones explicando las situaciones en que las garantías no se aplican, este puede ser eventos como actos terroristas o desastres causados por la naturaleza.
     
     .row.mt-5
       ul.lista-ul--color
@@ -84,7 +84,7 @@
       .col-lg-7(data-aos="fade-right")
         p El término de calidad del servicio se refiere a la capacidad de una red para brindar los distintos niveles de garantías al servicio en el tráfico; ahora bien, que el QoS es una técnica que mejora el uso de la red en donde se priorizara el tráfico.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ffecc1")
-          p.mb-0 La variedad de aplicaciones influye en la red en múltiples maneras y esto hace que se deba ejercer un control en el uso del ancho de banda para así garantizar un rendimiento optimo; es por esto por lo que se necesita identificar y darle prioridad al tráfico ya que es algo muy importante en un negocio. 
+          p.mb-0 La variedad de aplicaciones influye en la red en múltiples maneras y esto hace que se deba ejercer un control en el uso del ancho de banda para así garantizar un rendimiento óptimo; es por esto por lo que se necesita identificar y darle prioridad al tráfico, ya que es algo muy importante en un negocio. 
         p El QoS nos brinda una serie de beneficios como lo son:
         ul.lista-ul--color
           li
