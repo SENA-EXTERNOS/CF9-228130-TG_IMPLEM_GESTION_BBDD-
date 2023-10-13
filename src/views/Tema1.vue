@@ -20,9 +20,9 @@
           span <em>Servicios de red</em>
         figure
           img(src='@/assets/curso/temas/tema1/1.svg', alt='').mb-2
-          figcaption Nota. Tomado de Linares (2017). 
-    
-    
+          figcaption Nota. Tomado de Linares (2017).
+
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -31,8 +31,8 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p La finalidad de una red se fundamenta en que los usuarios de una entidad o empresa, puedan optimizar los recursos para garantizar un rendimiento eficaz; es por esta razón, que las organizaciones cuentan con grandes beneficios a la hora de trabajar en red, como son los que veremos a continuación:     
-        
+        p La finalidad de una red se fundamenta en que los usuarios de una entidad o empresa, puedan optimizar los recursos para garantizar un rendimiento eficaz; es por esta razón, que las organizaciones cuentan con grandes beneficios a la hora de trabajar en red, como son los que veremos a continuación:
+
         ul.lista-ul--color
           li
             i.fas.fa-circle.fa-xs(style='color: #00defc')
@@ -59,7 +59,7 @@
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Reduce los costos en los procesos.
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.svg', alt='')
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -68,12 +68,12 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
-      .col-lg-7(data-aos="fade-left") 
+      .col-lg-7(data-aos="fade-left")
         p Es importante que en todo servicio se elabore un documento o contrato que contemple los acuerdos y condiciones que deben cumplir el proveedor y el cliente; a esto se le llama acuerdo del nivel de servicio #[em Service level agreement], (SLA), el cual es importante para garantizar que el servicio prestado se cumpla entre ambas partes. En el área TIC se les llama SLA con este el proveedor se compromete con el cumplimiento de los requerimientos del cliente; estos servicios se organizan por niveles o métricas que indican un rango.
         .cajon.color-primario.p-4.mb-4(style="background-color: #dae4ef")
           p.mb-0 ¿Ahora bien, porque son importantes los SLA?, los proveedores que suministran servicios necesitan de los acuerdos de nivel de servicio para ayudar a administrar las expectativas de los clientes y mirar las circunstancias en las que no son responsables de la calidad del servicio; también hay un beneficio por parte de los clientes, ya que estos describen las características en el rendimiento del servicio.
         p Los SLA entonces ayudan a gestionar los problemas del servicio, estos se incorporan generalmente en un contrato de servicio del proveedor; ahora bien, ¿qué contiene un SLA?, estos generalmente tienen declarados los objetivos y una lista de servicios que están cubiertos por el acuerdo, este definirá las responsabilidades del mismo. El SLA incluye las exclusiones explicando las situaciones en que las garantías no se aplican, este puede ser eventos como actos terroristas o desastres causados por la naturaleza.
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -84,7 +84,7 @@
       .col-lg-7(data-aos="fade-right")
         p El término de calidad del servicio se refiere a la capacidad de una red para brindar los distintos niveles de garantías al servicio en el tráfico; ahora bien, que el QoS es una técnica que mejora el uso de la red en donde se priorizara el tráfico.
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ffecc1")
-          p.mb-0 La variedad de aplicaciones influye en la red en múltiples maneras y esto hace que se deba ejercer un control en el uso del ancho de banda para así garantizar un rendimiento óptimo; es por esto por lo que se necesita identificar y darle prioridad al tráfico, ya que es algo muy importante en un negocio. 
+          p.mb-0 La variedad de aplicaciones influye en la red en múltiples maneras y esto hace que se deba ejercer un control en el uso del ancho de banda para así garantizar un rendimiento óptimo; es por esto por lo que se necesita identificar y darle prioridad al tráfico, ya que es algo muy importante en un negocio.
         p El QoS nos brinda una serie de beneficios como lo son:
         ul.lista-ul--color
           li
@@ -102,7 +102,7 @@
           br
           span <em>Calidad del servicio en la red</em>
         img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -146,7 +146,7 @@
                 img(src='@/assets/curso/temas/tema1/9.svg', alt='Texto que describa la imagen')
           h4.text-center Administración
           p Este elemento ayuda con la administración y configuración de los usuarios o clientes de la red (DHCP/DNS).
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -156,7 +156,7 @@
     .cajon-b.color-secundario.p-3.mb-5
       p.mb-0 Los protocolos se definen como un conjunto de reglas permanentes en la red; estos protocolos son estándares y tienen políticas que definen la comunicación entre dos o más equipos en la red; estas políticas aseguran la comunicación de extremo a extremo y también los protocolos que deben ser instalados por el emisor y receptor, para dar garantía a la comunicación de la red. (Philippe, 2010)
       br
-      p Ahora bien, cuando se hace referencia a una pila de protocolos, se está hablando del conjunto completo de capas que trabajan entre sí, para brindar capacidades de red. 
+      p Ahora bien, cuando se hace referencia a una pila de protocolos, se está hablando del conjunto completo de capas que trabajan entre sí, para brindar capacidades de red.
 
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
@@ -170,7 +170,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3
           br
-          span <em>Protocolos de red</em> 
+          span <em>Protocolos de red</em>
         img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
     .row.justify-content-center
       .col-lg-2.col-8(data-aos="fade-right")
@@ -178,7 +178,7 @@
       .col-lg-10(data-aos="fade-left")
         p Ahora bien, con relación a los servicios de red, se resalta que estos facilitan la conexión entre dos o más ordenadores, dando como finalidad compartir recursos tanto en el <em>software</em> o en el <em>hardware</em>; es por esto, por lo que podemos compartir impresoras o programas en una red, así como también los servicios de red garantizan una mejor seguridad de la información.
 
-        p <b>Un ejemplo más conciso</b>  
+        p <b>Un ejemplo más conciso</b>
 
         p La interconexión de ordenadores conectados en diferentes sitios del mundo, estos intercambian datos y recursos; las redes inalámbricas Wifi también son otro servicio de red; esta funciona sin cables y trabaja igual, a los servicios de redes tradicionales.
 

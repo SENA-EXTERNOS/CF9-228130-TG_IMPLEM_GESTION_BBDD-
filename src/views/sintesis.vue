@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
 
-    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
     .row.justify-content-center
       .col-md-10.mb-5

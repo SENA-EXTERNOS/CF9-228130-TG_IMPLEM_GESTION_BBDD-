@@ -40,7 +40,7 @@
           .col-8.order-1.order-lg-2(data-aos="fade-left")
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/2.svg', alt='').mb-3
-              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f). 
+              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
         .row.justify-content-center.mb-5
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en escritorios
@@ -48,7 +48,7 @@
           .col-8.order-1.order-lg-2(data-aos="fade-left")
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/3.svg', alt='').mb-3
-              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f). 
+              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
         .row.justify-content-center.mb-5
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en los servidores
@@ -56,7 +56,7 @@
           .col-8.order-1.order-lg-2(data-aos="fade-left")
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/4.svg', alt='').mb-3
-              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f). 
+              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
         .row.justify-content-center.mb-5
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en los sistemas operativos
@@ -64,7 +64,7 @@
           .col-8.order-1.order-lg-2(data-aos="fade-left")
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/5.svg', alt='').mb-3
-              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f). 
+              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
         .row.justify-content-center.mb-5
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización de las funciones de red
@@ -72,8 +72,8 @@
           .col-8.order-1.order-lg-2(data-aos="fade-left")
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/6.svg', alt='').mb-3
-              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f). 
-    
+              figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -82,7 +82,7 @@
 
     p.mb-5(data-aos='fade-right') Los siguientes son elementos que componen a la virtualización:
     .row.justify-content-center.mb-5
-      .col-lg-1.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/7.svg', alt='') 
+      .col-lg-1.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/7.svg', alt='')
       .col-lg-11(data-aos="fade-left")
         ul.lista-ul--color
           li
@@ -94,8 +94,8 @@
             p.mb-0 #[b Capa de virtualización:] se llama hipervisor o monitor de máquina virtual y permite usar, al mismo tiempo, diferentes sistemas operativos en una misma máquina.
           li
             i.fas.fa-check.fa-xs
-            p.mb-0 #[b Máquinas virtuales:] es un entorno virtual que dispone el <em>hardware</em>, formado, a su vez, por un sistema operativo. Se ejecutan como cualquier proceso del sistema operativo, realizando una interpretación de enlace entre la fuente y el código máquina. 
-    
+            p.mb-0 #[b Máquinas virtuales:] es un entorno virtual que dispone el <em>hardware</em>, formado, a su vez, por un sistema operativo. Se ejecutan como cualquier proceso del sistema operativo, realizando una interpretación de enlace entre la fuente y el código máquina.
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -133,15 +133,15 @@
                 li
                   i.fas.fa-check.fa-xs
                   p.mb-0 <em>Microsoft Hyper-V Manager</em>.
-      
+
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/8.svg', alt='')
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
             i.fas.fa-square
             h3 Plataforma <em>Azure</em>
-    
+
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .bloque-texto-derecha
@@ -207,7 +207,7 @@
                   p.mb-0 <strong>Inteligencia artificial:</strong> la plataforma revoluciona la forma en que se organizan la información y los recursos TI; además, permite desarrollar una cultura de cooperación, basada en el aprendizaje, optimización y pruebas. (Philippe, 2021)
 
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/11.svg', alt='')
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -222,23 +222,23 @@
 
 
       .col-lg-7(data-aos="fade-right")
-        
+
         .cajon-b.color-secundario.p-3.mb-2
           p Todos los recursos que se asignan y usan deben pertenecer a un proyecto; los proyectos están compuestos por la configuración, permisos y metadatos, para describir aplicaciones. Cada proyecto debe contener las siguientes características: nombre del proyecto, ID y un número de proyecto.
 
           p Para estos casos, la consola proporciona una interfaz gráfica orientada en la web, en donde se pueden administrar los proyectos y recursos de <em>Google Cloud</em>; también se pueden crear varios proyectos y usarlos para separar el trabajo de una mejor manera. Villarino (2018)
- 
+
           p Entre la lista de funciones que <em>Google Cloud</em> ofrece, se encuentran más de 100 productos y servicios, dando solución a problemas empresariales como: máquinas virtuales, alojamiento web, almacenamiento de archivos, VPS, creación de aplicaciones, herramientas de gestión, etc.
 
       .col-lg-5.col-8(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
-    
+
     .row.mt-3.justify-content-center
       .col-lg-10
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #d9faff")
             p.mb-0 <em>Google Cloud</em> sirve para la realización de sitios web, administradores de procesos y almacenamiento de grandes volúmenes de datos; además tienen su propio espacio en la nube, manteniendo un alto nivel de seguridad con un sistema de encriptado, que evita la invasión y robo de datos.
 
-    
+
     p.mb-5(data-aos='fade-right') Con <em>Google Cloud</em> se puede hacer una inversión en una plataforma en la nube. Ahora bien, cuando se habla específicamente de Google, se tienen aún más ventajas, en comparación de servicios similares, como:
 
     .row.justify-content-center.mb-5
@@ -278,7 +278,7 @@
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 8
           | Red privada a alta velocidad.
-    
+
     .row.mt-5
       ul.lista-ul--color
           li
@@ -305,7 +305,7 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Bases de datos")
-            p Entre las diferentes bases de datos que ofrece el servicio AWS están MysQL, posgreSQL, Oracle, SQL server, Amazon Aurora.
+            p Entre las diferentes bases de datos que ofrece el servicio AWS están MySQL, posgreSQL, Oracle, SQL server, Amazon Aurora.
           div(titulo="Creación de redes virtuales")
             p Permite a los usuarios crear redes privadas virtuales en la nube.
           div(titulo="Aplicación en el ámbito empresarial")
@@ -313,7 +313,7 @@
           div(titulo="Almacenamiento y gestores de contenido")
             p Ofrece diferentes tipos de almacenamientos desde archivos con acceso regular poco frecuente o incluso como un solo archivo.
           div(titulo="<em>Cloud computing</em>")
-            p Desarrollado para la creación de instancias y mantenimiento. 
+            p Desarrollado para la creación de instancias y mantenimiento.
           div(titulo="Inteligencia de negocios ")
             p Permite realizar análisis de datos empresariales a gran volumen, y servicios para la gestión de flujos de datos.
           div(titulo="Gestión de aplicaciones móviles")
@@ -323,7 +323,7 @@
           div(titulo="Herramientas para desarrolladores")
             p Gestión de códigos, implementación y publicación del #[em software.]
           div(titulo="Seguridad y control de acceso")
-            p Nos permite autenticar en varios pasos para así poder acceder a sistemas internos. 
+            p Nos permite autenticar en varios pasos, para así poder acceder a sistemas internos.
 
 
     .row.mt-5
@@ -331,7 +331,7 @@
           li
             i.fas.fa-square
             h3 <em>Software</em> de virtualización
-    
+
       p Es aquel que emula un equipo o sistema; se puede decir que es un <em>software</em> que puede hacerse pasar por otro dispositivo; es por eso que puede ejecutar otro sistema operativo en su interior, teniendo sus propios dispositivos como disco duro, memoria, entre otros componentes. Existen dos tipos de máquinas virtuales: las de sistema y las de proceso.
 
     .row.justify-content-center.mb-5
@@ -355,12 +355,12 @@
                 li
                   i.fas.fa-check.fa-xs
                   p.mb-0 Favorecer un almacenamiento seguro de la información, en un entorno virtual.
-                
+
       .col-lg-4.col-8(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img13.svg', alt='')
 
     .row.mt-5
-      p Hay que resaltar que una máquina virtual no puede ingresar a la información o datos de la máquina anfitrión. Para que funcione el <em>software</em> de virtualización, este mapea los dispositivos virtuales, dependiendo de los reales que se encuentren en la máquina física. 
+      p Hay que resaltar que una máquina virtual no puede ingresar a la información o datos de la máquina anfitrión. Para que funcione el <em>software</em> de virtualización, este mapea los dispositivos virtuales, dependiendo de los reales que se encuentren en la máquina física.
 
       p A continuación, se detallan algunos de los <em>software</em> de virtualización, más populares en el mercado:
 

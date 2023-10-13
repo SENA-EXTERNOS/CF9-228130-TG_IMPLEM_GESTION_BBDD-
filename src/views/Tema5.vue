@@ -8,7 +8,7 @@
       h1 Sistemas de control de versiones, GIT, integración y entrega continua
 
     .row.mt-5
- 
+
       p A través de los sistemas de control de versiones, se pueden gestionar y rastrear los cambios que se presentan en el código de un <em>software</em>.
 
       p Dentro de los elementos importantes de los sistemas de control de versiones, se resaltan los siguientes:
@@ -22,7 +22,7 @@
             p Es una herramienta que vigila y gestiona cambios en un sistema de archivos, de igual manera un VCS monitorizara las adiciones, eliminaciones y modificaciones en las líneas de texto que contiene el archivo.
               br
               br
-              |Es la práctica de rastrear y gestionar los cambios en el código de <em>software</em>; los sistemas de control de versiones son #[em software] que mejoran a los equipos de #[em software] al gestionar los cambios en el código fuente a lo largo del tiempo; estos entornos se aceleran y los sistemas de control mejoran los tiempos en la gestión de los proyectos. (Dauzon, 2022)    
+              |Es la práctica de rastrear y gestionar los cambios en el código de <em>software</em>; los sistemas de control de versiones son #[em software] que mejoran a los equipos de #[em software] al gestionar los cambios en el código fuente a lo largo del tiempo; estos entornos se aceleran y los sistemas de control mejoran los tiempos en la gestión de los proyectos. (Dauzon, 2022)
           div(titulo="Utilizado para")
             p Son especialmente utilizados para equipos de <em>DevOps</em>, ya que permiten reducir tiempo en el desarrollo; también se puede decir que se realizan seguimientos a las modificaciones del código en un tipo especial de bases de datos, en este si comete un error en la codificación, los desarrolladores pueden ir a sus versiones anteriores y hacer comparaciones para ayudar a resolver los errores, lo que permite minimizar las interrupciones a todos los miembros del equipo.
               br
@@ -73,34 +73,33 @@
             p Para guardar cambios en el repositorio se usan los comandos Git #[em add], pero antes se pueden realizar commits en la versión del archivo, los pasos que se deben hacer son los siguientes:
             ul.lista-ul--color
               li
-                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                i.fas.fa-check.fa-xs(style="color: #084a93")
                 p.mb-0 Cambiar el directorio a #[em /path/to/proyect.]
 
               li
-                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                i.fas.fa-check.fa-xs(style="color: #084a93")
                 p.mb-0 Crear un archivo nuevo comminttest.txt con el contenido #[em “Test”.]
 
               li
-                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                i.fas.fa-check.fa-xs(style="color: #084a93")
                 p.mb-0 Ejecutar el comando Git #[em add] para añadir committest.txt al área de preparación del repositorio.
 
               li
-                i.fas.fa-check.fa-xs(style="color: #084a93") 
+                i.fas.fa-check.fa-xs(style="color: #084a93")
                 p.mb-0 Crear un #[em commit] nuevo con un mensaje que describa que el trabajo se ha hecho en el #[em commit.]
             p Es importante diferenciar las copias de trabajo en Git a las copias de trabajo al extraer código fuente de un repositorio SVN; a diferencia de SVN, Git no distingue entre las copias de trabajo y el repositorio central, es por eso que colaborar con Git es distinto que con SVN.
-            br
-            br
-            |Se puede añadir también una URL de un repositorio remoto al Git config local y configurar una rama de nivel superior para ramas locales; el comando Git remote ofrece esta utilidad, un ejemplo de esto sería.
-            br
-            br
-            | <em>Git remote add</em>, este comando asignará el repositorio remoto a una referencia en el repositorio local y una vez asignado, se podrá enviar a las ramas locales.
+
+
+            p Se puede añadir también una URL de un repositorio remoto al Git config local y configurar una rama de nivel superior para ramas locales; el comando Git remote ofrece esta utilidad, un ejemplo de esto sería:
+
+            p <em>Git remote add</em>, , este comando asignará el repositorio remoto a una referencia en el repositorio local y una vez asignado, se podrá enviar a las ramas locales.
 
           div(titulo="Git <em> push -u</em>")
             p Este comando enviará la rama del repositorio local además a configuración del URL del repositorio remoto, este puede pedir configurar ajustes como el #[em username] o el #[em email-] El comando Git #[em config] permite configurar la instalación de Git desde la línea de comandos, este comando puede definir ciertos ajustes, desde la información del usuario hasta las preferencias o el comportamiento del repositorio.
       .col-lg-4.col-8(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema6/4.svg', alt='')
 
-    
+
 </template>
 
 <script>
