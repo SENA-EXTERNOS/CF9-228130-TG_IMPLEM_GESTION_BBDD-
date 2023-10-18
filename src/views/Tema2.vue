@@ -33,12 +33,12 @@
     p.mb-5(data-aos='fade-right') En la actualidad existen diversas empresas que manejan la información en la nube ofreciendo una variedad de servicios los cuales se pueden clasificar en:
     .row.justify-content-center.mb-5
       .col-lg-10
-        ImagenInfograficaB.color-secundario.mb-5
+        ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img2.svg', alt='Texto que describa la imagen')
               figcaption Nota: Adaptada de SaS (s/f). Weclapp (2021).  
-          div(x="23.5%" y="13%" tooltip="SaaS" numero="+")
+          .tarjeta.color-acento-contenido.p-3.text-black(x="23.5%" y="13%" numero="+")
             h4.mb-2 SaaS
             p #[em Software] como servicio (SaaS); en este los proveedores ofrecen a sus clientes servicios de niveles de aplicación según la necesidad de cada empresa, como lo es la (CRM) o gestión de relaciones con clientes, orientación al marketing y análisis empresarial.
 
@@ -47,13 +47,13 @@
 
 
 
-          div(x="49.5%" y="13%" tooltip="PaaS" numero="+")
+          .tarjeta.color-acento-contenido.p-3.text-black(x="49.5%" y="13%" numero="+")
             h4.mb-2 PaaS
             p Plataforma como servicio (PasS) se orientan a componentes como lo son servidores web (SDK), kits de desarrollo de <em>software</em> y sistemas que gestionan las bases de datos.
             p Este tipo de servicio es fundamental para los desarrolladores que deseen implementar y gestionar sus aplicaciones, ya que no tienen que preocuparse por las capacidades del <em>hardware</em> y el <em>software</em> permitiendo el mejoramiento de la eficacia. Esta ofrece plataformas como servicio que pueden lanzar bases de datos, herramientas de desarrollo y servicios que contribuyen con la inteligencia empresarial. Un empleo de estas plataformas sería Google <em>App Engine</em> y <em>Bungee Connect</em>.
 
 
-          div(x="75.5%" y="13%"  tooltip='IaaS' numero="+")
+          .tarjeta.color-acento-contenido.p-3.text-black(x="75.5%" y="13%"  numero="+")
             h4.mb-2 laaS
             p Infraestructura como servicio (laaS), este es un centro de datos seguro, ya que permiten acceder a recursos primarios como lo son la capacidad de almacenamiento de datos, procesamiento y conectividad en la red.
             p Cuando se habla de la laaS se hace referencia a estructuras como servicios; las organizaciones hacen contrataciones de infraestructura de <em>hardware</em> a un tercero a cambio de un pago, en esta se pueden elegir las características y capacidades en el procesador, memoria y capacidad de disco duro según los requerimientos de la empresa. También se ofrecen máquinas virtuales, sistemas de copia de seguridad y <em>firewall</em>. (Gouigoux, 2018)
